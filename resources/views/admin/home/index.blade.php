@@ -6,7 +6,7 @@
     <div class="card mb-2">
         <div class="card-body">
             <h2 class="h5 page-title">
-                Portal do Instituto Politécnico Industrial do Kilamba Kiaxi  nº 8056 "Nova Vida"<br>
+                Portal da Igreja Missionária do Evangelho do Desenvolvimento "Sede Bairro do Camama"<br>
                 <small>Painel Administrativo</small>
             </h2>
         </div>

@@ -9,7 +9,7 @@
 
 
                                 <div class="header-info-right">
-                                    <p class="text-light p-0">Instituto Politécnico Industrial do Kilamba Kiaxi nº 8056
+                                    <p class="text-light p-0">Portal da Igreja Missionária do Evangelho do Desenvolvimento "Sede Bairro do Camama"
                                         "Nova Vida"</p>
                                 </div>
 
