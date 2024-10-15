@@ -28,11 +28,11 @@ class AppServiceProvider extends ServiceProvider
     {
 
 
-    //   Paginator::useBootstrap();
-      //  $response['configuration'] = Configuration::first();
-      //  $response['courseMenus'] = Course::with('subcourses')->get();
-//
-      //  view()->share($response);
+       Paginator::useBootstrap();
+        $response['configuration'] = Configuration::first();
+        $response['courseMenus'] = Course::with('subcourses')->get();
+
+        view()->share($response);
 
     }
 }
