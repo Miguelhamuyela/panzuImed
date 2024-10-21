@@ -30,7 +30,12 @@
         <!-- ====== Slideshow End ====== -->
 
 
-        {{-- courses --}}
+
+
+
+
+
+        {{--
         <section class="brand-area ">
             <div class="container">
                 <div class="row wrapper-brand justify-content-center py-5">
@@ -64,6 +69,12 @@
             </div>
 
         </section>
+
+--}}
+
+
+
+
 
         {{-- news --}}
         <section class="brand-area" style="background-color: #F3F8FF;">
@@ -109,10 +120,9 @@
                         <div class="about-caption">
 
                             <div class="mb-25 py-4">
-                                <h2 >Faça sua matrícula no IPIKK</h2>
-                                <p class="pt-20 pb-20 text-justify">Junte-se a nós, usufrua o que temos a oferecer para a
-                                    sua capacitação e desenvolvimento profissional</p>
-                                <a href="{{route('site.registration.index')}}" class="btn_01 btn_wnat">Saiba Mais</a>
+                                <h2>Faça Parte do Nosso Movimento "IMED"</h2>
+                                <p class="pt-20 pb-20 text-justify">O pentecostalismo é um movimento do cristão protestante que dá ênfase especial numa experiência direta e pessoal de Deus através do Batismo no Espírito Santo.<br>O termo pentecostal é derivado de Pentecostes, um termo grego que descreve a festa judaica das semanas. Para os cristãos, este evento comemora a descida do Espírito Santo sobre os seguidores de Jesus Cristo, conforme descrito no Atos 2</p>
+                                <a href="{{ route('site.about') }}" class="btn_01 btn_wnat">Saiba Mais</a>
                             </div>
                         </div>
                     </div>
@@ -134,7 +144,7 @@
             <div class="section-tittle text-center mb-50 ">
 
                 <span></span>
-                <h3>Escolas Filiadas</h3>
+                <h3>Paróquia/Centro</h3>
             </div>
             <div class="container">
 

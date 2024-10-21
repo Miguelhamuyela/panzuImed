@@ -13,7 +13,7 @@ h4,
 h5,
 h6 {
     font-family: "Rubik", sans-serif;
-    color: #003072;
+    color: #fc1406;
     margin-top: 0px;
     font-style: normal;
     font-weight: 500;
@@ -145,7 +145,7 @@ a:hover {
 
 a,
 button {
-    color: #003072;
+    color: #fc1406;
     margin-right: 20px;
     font-weight: bold;
 }
@@ -666,7 +666,7 @@ hr {
 }
 
 .header-btn2 p {
-    color: #003072;
+    color: #fc1406;
     font-size: 16px;
     font-weight: 500;
     display: block;
@@ -768,7 +768,7 @@ hr {
     top: 0;
     width: 101%;
     height: 101%;
-    background: #003072;
+    background: #fc1406;
     z-index: 1;
     border-radius: 5px;
     transition: transform 0.5s;
@@ -996,7 +996,7 @@ hr {
 
 .header-area .header-top .header-info-left ul li span {
     font-weight: 500;
-    color: #003072
+    color: #fc1406
 }
 
 .header-area .header-top .header-info-left ul li:last-child {
@@ -1022,7 +1022,7 @@ hr {
 }
 
 .header-area .header-top .header-info-right .header-social li a {
-    color: #003072;
+    color: #fc1406;
     font-size: 16px;
     padding-left: 19px
 }
@@ -1047,7 +1047,7 @@ hr {
 }
 
 .header-area .header-top .header-info-right p {
-    color: #003072;
+    color: #fc1406;
     font-size: 16px;
     padding-left: 19px;
     margin: auto;
@@ -1136,7 +1136,7 @@ hr {
 }
 
 .header-area .header-bottom .left-side .main-menu ul>li a {
-    color: #003072;
+    color: #fc1406;
     font-family: "Fira Sans", sans-serif;
     font-weight: 400;
     padding: 29px 7px;
@@ -1200,7 +1200,7 @@ hr {
 .header-area .header-bottom .left-side .main-menu ul ul.submenu>li>a {
     padding: 6px 10px !important;
     font-size: 17px;
-    color: #003072;
+    color: #fc1406;
     font-weight: 400;
     text-transform: capitalize
 }
@@ -1368,14 +1368,14 @@ hr {
 }
 
 .slider-area {
-    background-color: #003072
+    background-color: #fc1406
 }
 
 .slider-area .hero-caption span {
     font-size: 14px;
     line-height: 1.2;
     font-weight: 300;
-    color: #003072;
+    color: #fc1406;
     margin-bottom: 20px;
     display: inline-block;
     background: #fff;
@@ -1848,7 +1848,7 @@ hr {
 }
 
 .about-area .wrapper-border {
-    background-color: #003072
+    background-color: #fc1406
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -1954,7 +1954,7 @@ hr {
 }
 
 .contact-wrappers {
-    background: #003072;
+    background: #fc1406;
     padding: 91px 0
 }
 
@@ -2084,7 +2084,7 @@ hr {
 }
 
 .popular-directorya-area .properties .properties-caption p {
-    color: #003072;
+    color: #fc1406;
     font-size: 14px;
     font-weight: 500
 }
@@ -2152,7 +2152,7 @@ hr {
 }
 
 .categories-area .single-cat .cat-cap h5 {
-    color: #003072;
+    color: #fc1406;
     -webkit-transition: all .2s ease-out 0s;
     -moz-transition: all .2s ease-out 0s;
     -ms-transition: all .2s ease-out 0s;
@@ -2220,7 +2220,7 @@ hr {
 
 .footer-wrapper {
     padding: 0 88px;
-    background-color: #003072;
+    background-color: #fc1406;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1400px) {
@@ -2512,7 +2512,7 @@ ul.footer-social li .ins {
 }
 
 .home-blog .single-blogs .blogs-cap h5 a {
-    color: #003072;
+    color: #fc1406;
     font-size: 24px;
     line-height: 1.4;
     margin-bottom: 12px;
@@ -2527,7 +2527,7 @@ ul.footer-social li .ins {
 }
 
 .home-blog .single-blogs .blogs-cap h5 a:hover {
-    color: #003072
+    color: #fc1406
 }
 
 .home-blog .single-blogs .blogs-cap p {
@@ -4530,17 +4530,20 @@ del {
 }
 
 
-
 /*--------------------------------------------------------------
 # routes
 --------------------------------------------------------------*/
+
 .routes .route-wrap {
     padding-left: 50px;
-  }
-  .routes .routes-carousel, .routes .routes-slider {
+}
+
+.routes .routes-carousel,
+.routes .routes-slider {
     overflow: hidden;
-  }
-  .routes .route-item {
+}
+
+.routes .route-item {
     box-sizing: content-box;
     padding: 30px 30px 30px 60px;
     margin: 30px 15px;
@@ -4550,9 +4553,9 @@ del {
     background: #fff;
     box-shadow: 0px 0px 20px 0px rgb(11 35 65 / 20%);
     border-radius: 5px;
+}
 
-  }
-  .routes .route-item {
+.routes .route-item {
     cursor: pointer;
     transition: transform 0.3s;
 }
@@ -4562,61 +4565,67 @@ del {
     cursor: pointer;
 }
 
-
-  .routes .route-item .route-img {
+.routes .route-item .route-img {
     width: 90px;
     border-radius: 10px;
     border: 6px solid #fff;
     position: absolute;
     left: -45px;
-  }
-  .routes .route-item h3 {
+}
+
+.routes .route-item h3 {
     font-size: 18px;
     font-weight: bold;
     margin: 10px 0 5px 0;
     color: #111;
-  }
-  .routes .route-item h4 {
+}
+
+.routes .route-item h4 {
     font-size: 14px;
     color: #999;
     margin: 0;
-  }
-  .routes .route-item .quote-icon-left, .routes .route-item .quote-icon-right {
-    color:#003072;
+}
+
+.routes .route-item .quote-icon-left,
+.routes .route-item .quote-icon-right {
+    color: #fc1406;
     font-size: 26px;
-  }
-  .routes .route-item .quote-icon-left {
+}
+
+.routes .route-item .quote-icon-left {
     display: inline-block;
     left: -5px;
     position: relative;
-  }
-  .routes .route-item .quote-icon-right {
+}
+
+.routes .route-item .quote-icon-right {
     display: inline-block;
     right: -5px;
     position: relative;
     top: 10px;
-  }
-  .routes .route-item p {
+}
+
+.routes .route-item p {
     font-style: italic;
     margin: 15px auto 15px auto;
-  }
-  .routes .swiper-js-pagination {
+}
+
+.routes .swiper-js-pagination {
     margin-top: 20px;
     position: relative;
-  }
-  .routes .swiper-js-pagination .swiper-js-pagination-bullet {
+}
+
+.routes .swiper-js-pagination .swiper-js-pagination-bullet {
     width: 12px;
     height: 12px;
     background-color: #fff;
     opacity: 1;
     border: 1px solid #ed502e;
-  }
-  .routes .swiper-js-pagination .swiper-js-pagination-bullet-active {
+}
+
+.routes .swiper-js-pagination .swiper-js-pagination-bullet-active {
     background-color: #ed502e;
-  }
-
-
-
+}
 
 
 /*--------------------------------------------------------------

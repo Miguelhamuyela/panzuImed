@@ -1,12 +1,12 @@
 @extends('layouts.merge.dashboard')
-@section('titulo', 'Portal Oficial do IPIKK')
+@section('titulo', 'Portal Oficial da IMED')
 @section('content')
 
 
     <div class="card mb-2">
         <div class="card-body">
             <h2 class="h5 page-title">
-                Portal da Igreja Missionária do Evangelho do Desenvolvimento "Sede Bairro do Camama"<br>
+               <marquee> Portal da Igreja Missionária do Evangelho do Desenvolvimento "Sede Bairro do Camama"</marquee><br>
                 <small>Painel Administrativo</small>
             </h2>
         </div>

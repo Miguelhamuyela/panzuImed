@@ -12,8 +12,8 @@
 
         <li class="nav-item dropdown">
 
-            <a class="nav-link dropdown-toggle text-muted pr-0" href="#" id="navbarDropdownMenuLink" role="button"
-                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle text-muted pr-0" href="#" id="navbarDropdownMenuLink"
+                role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <span class="fe fe-user fe-16"></span>
 
             </a>
@@ -34,7 +34,8 @@
 
     @if (null !== Auth::user())
         <aside class="sidebar-left border-right bg-white shadow" id="leftSidebar" data-simplebar>
-            <a href="#" class="btn collapseSidebar toggle-btn d-lg-none text-muted ml-2 mt-3" data-toggle="toggle">
+            <a href="#" class="btn collapseSidebar toggle-btn d-lg-none text-muted ml-2 mt-3"
+                data-toggle="toggle">
                 <i class="fe fe-x"><span class="sr-only"></span></i>
             </a>
             <nav class="vertnav navbar navbar-light">
@@ -86,13 +87,13 @@
                                 <a href="#institutional" data-toggle="collapse" aria-expanded="false"
                                     class="dropdown-toggle nav-link">
                                     <i class="fe fe-layers"></i>
-                                    <span class="ml-3 item-text">Institucional</span>
+                                    <span class="ml-3 item-text">Organigrama</span>
                                 </a>
                                 <ul class="collapse list-unstyled pl-4 w-100" id="institutional">
 
                                     <li class="nav-item">
                                         <a class="nav-link pl-3" href="{{ route('admin.perfilDirector.show') }}">
-                                            <span class="ml-1 item-text">Perfil do Director</span>
+                                            <span class="ml-1 item-text">Pastor Geral</span>
                                         </a>
                                     </li>
 
@@ -155,22 +156,24 @@
                                 <a href="#normative" data-toggle="collapse" aria-expanded="false"
                                     class="dropdown-toggle nav-link">
                                     <i class="fe fe-layers"></i>
-                                    <span class="ml-3 item-text"> Normativos</span>
+                                    <span class="ml-3 item-text"> Documento</span>
                                 </a>
                                 <ul class="collapse list-unstyled pl-4 w-100" id="normative">
 
                                     <li class="nav-item">
                                         <a class="nav-link pl-3" href="{{ route('admin.normative.create') }}">
-                                            <span class="ml-1 item-text">Cadastrar Normativos </span>
+                                            <span class="ml-1 item-text">Cadastrar Novo Documento </span>
                                         </a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link pl-3" href="{{ route('admin.normative.index') }}">
-                                            <span class="ml-1 item-text">Listar Normativos </span>
+                                            <span class="ml-1 item-text">Listar Documento </span>
                                         </a>
                                     </li>
                                 </ul>
                             </li>
+
+                           {{--
 
                             <li class="nav-item dropdown">
                                 <a href="#registration" data-toggle="collapse" aria-expanded="false"
@@ -193,7 +196,7 @@
                                 </ul>
                             </li>
 
-
+news --}}
 
 
 
@@ -201,18 +204,19 @@
                                 <a href="#affiliateSchools" data-toggle="collapse" aria-expanded="false"
                                     class="dropdown-toggle nav-link">
                                     <i class="fe fe-layers"></i>
-                                    <span class="ml-3 item-text"> Escolas Filiadas </span>
+                                    <span class="ml-3 item-text"> Paróquia/Centro </span>
                                 </a>
                                 <ul class="collapse list-unstyled pl-4 w-100" id="affiliateSchools">
 
                                     <li class="nav-item">
-                                        <a class="nav-link pl-3" href="{{ route('admin.affiliatedSchools.create') }}">
-                                            <span class="ml-1 item-text">Cadastrar Escolas Filiadas </span>
+                                        <a class="nav-link pl-3"
+                                            href="{{ route('admin.affiliatedSchools.create') }}">
+                                            <span class="ml-1 item-text">Nova Paróquia/Centro </span>
                                         </a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link pl-3" href="{{ route('admin.affiliatedSchools.index') }}">
-                                            <span class="ml-1 item-text">Listar Escolas Filiadas </span>
+                                            <span class="ml-1 item-text">Listar Paróquia/Centro </span>
                                         </a>
                                     </li>
                                 </ul>

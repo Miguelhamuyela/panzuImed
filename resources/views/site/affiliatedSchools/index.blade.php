@@ -1,5 +1,5 @@
 @extends('layouts.merge.site')
-@section('titulo', 'Escolas Filiadas')
+@section('titulo', 'Paróquia/Centro')
 @section('content')
     <main>
 
@@ -9,7 +9,7 @@
                     <div class="row">
                         <div class="col-xxl-12">
                             <div class="hero-caption hero-caption2">
-                                <h2 class="text-white">Escolas Filiadas</h2>
+                                <h2 class="text-white">Paróquia/Centro</h2>
                             </div>
                         </div>
                     </div>
