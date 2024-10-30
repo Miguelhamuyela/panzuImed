@@ -16,12 +16,12 @@
                 <div class="row justify-content-between">
                     <div class="col-lg-3 col-md-6 col-12" style="margin-top: -40px">
                         <a href="{{ route('site.home') }}">
-                            <img src="/site/img/hero/logo.png" alt="logo IPIKK" width="105px" height="130px">
+                            <img src="/site/img/hero/logo.png" alt="logo IMED" width="105px" height="130px">
                         </a>
                         <p class="text-white">
                             Igreja Missionária Evangelica do Desenvolvimento
                             <br>
-                            Bairro Camama 1 , "Municipio do Kilamba Kiaxi-Luanda (Angola)"
+                            Bairro Camama 1 , "Cidade Universitária (Angola)"
                             <br>
                             Email:geral@imed.ao
                         </p>
@@ -115,7 +115,7 @@
                                     <li><a href="https://med.gov.ao/ao/" target="_blank">Ministério da Educação</a></li>
                                     <li><a href="https://itel.gov.ao/" target="_blank">Instituto de Telecomunicações</a>
                                     </li>
-                                    <li><a href="https://webmail.ipikk.ao/" target="_blank">Webmail</a></li>
+                                    <li><a href="https://webmail.IMED.ao/" target="_blank">Webmail</a></li>
 
                                 </ul>
                             </div>

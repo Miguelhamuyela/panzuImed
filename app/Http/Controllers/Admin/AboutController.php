@@ -31,7 +31,7 @@ class AboutController extends Controller
         ]);
 
         if ($middle = $request->file('image')) {
-            $file = $middle->storeAs('about', 'IPIKK-acerca-' . uniqid(rand(1, 5)) . "." . $middle->extension());
+            $file = $middle->storeAs('about', 'IMED-acerca-' . uniqid(rand(1, 5)) . "." . $middle->extension());
         } else {
             $file =  About::find($id)->image;
         }

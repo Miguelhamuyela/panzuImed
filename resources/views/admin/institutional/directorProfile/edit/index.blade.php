@@ -5,9 +5,9 @@
     <div class="card mb-2">
         <div class="card-body">
             <h2 class="h5 page-title">
-                <a href="{{ route('admin.perfilDirector.show') }}"><u>Ver Perfil Do Director</u></a>
-                
-                > Ipikk Perfil Do Director
+                <a href="{{ route('admin.perfilDirector.show') }}"><u>Ver Perfil Do Pastor Geral</u></a>
+
+                >  Perfil Do Pastor Geral
 
             </h2>
         </div>

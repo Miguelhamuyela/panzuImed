@@ -112,7 +112,7 @@
             </div>
         </section>
 
-        {{-- study in IPIKK --}}
+        {{-- study in IMED --}}
         <section class="about-area py-5 ">
             <div class="container">
                 <div class="row align-items-center wrapper-border">
@@ -202,7 +202,7 @@
 
         </section><!-- End filiateds Section -->
 
- 
+
 
 
     </main>

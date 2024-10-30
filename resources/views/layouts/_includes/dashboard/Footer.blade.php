@@ -245,7 +245,6 @@ integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52n
 </style>
 
 
-
 <script>
     $("#img-input").click(function() {
         $("#image_visible").hide();
