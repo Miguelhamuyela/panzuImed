@@ -1,12 +1,11 @@
 @if (session('help'))
-<script>
-    Swal.fire({
-        icon: 'success',
-        title: 'Mensagem Enviada com Sucesso!',
-        showConfirmButton: true
-    })
-</script>
-
+    <script>
+        Swal.fire({
+            icon: 'success',
+            title: 'Mensagem Enviada com Sucesso!',
+            showConfirmButton: true
+        })
+    </script>
 @endif
 
 
@@ -20,25 +19,25 @@
                             <img src="/site/img/hero/logo.png" alt="logo IPIKK" width="105px" height="130px">
                         </a>
                         <p class="text-white">
-                            Instituto Politécnico Industrial do
+                            Igreja Missionária Evangelica do Desenvolvimento
                             <br>
-                            Kilamba Kiaxi Nº 8056 "Nova Vida"
+                            Bairro Camama 1 , "Municipio do Kilamba Kiaxi-Luanda (Angola)"
                             <br>
-                            Email:geral@ipikk.ao
+                            Email:geral@imed.ao
                         </p>
                         <div class="single-footer-caption">
 
                             <ul class="footer-social">
                                 <li>
                                     @isset($configuration->facebook)
-                                    <a class="fb" target="_blank" href="{{ $configuration->facebook }}"><i
-                                        class="fab fa-facebook"></i></a>
+                                        <a class="fb" target="_blank" href="{{ $configuration->facebook }}"><i
+                                                class="fab fa-facebook"></i></a>
                                     @endisset
-                                    </li>
+                                </li>
                                 <li>
                                     @isset($configuration->instagram)
-                                    <a class="ins" target="_blank"
-                                    href="{{ $configuration->instagram }}"><i class="fab fa-instagram"></i></a>
+                                        <a class="ins" target="_blank" href="{{ $configuration->instagram }}"><i
+                                                class="fab fa-instagram"></i></a>
                                     @endisset
 
                                 </li>
@@ -48,19 +47,20 @@
                     <div class="col-lg-3 col-md-6 col-12">
                         <div class="single-footer-caption mb-50">
                             <div class="footer-tittle">
-                                <h4>IPIKK</h4>
+                                <h4>IMED</h4>
                                 <ul>
 
-                                    <li><a href="{{ route('site.about') }}">Sobre Nós</a></li>
-                                    <li><a href="#">Inscrição</a></li>
-                                    <li><a href="{{ route('site.contact') }}">Contactos</a></li>
-                                    <li><a href="#">Área Restrita</a></li>
-                                    <li><a href="{{ route('site.policyPrivacy') }}"> Políticas de Privacidade </a>
+                                    <li><a href="{{ route('site.about') }}">Sobre Imed</a></li>
+                                    <li><a href="{{ route('site.missions') }}">Missão</a></li>
+                                    <li><a href="{{ route('site.contact') }}"> Contacto</a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
                     </div>
+
+
+
 
                     <div class="col-lg-3 col-md-6 col-12">
                         <div class="single-footer-caption mb-50">
@@ -70,14 +70,41 @@
 
                                     @if (isset($courseMenus))
                                         @foreach ($courseMenus as $item)
-                                            <li><a href="{!! url('/curso/' . urlencode($item->courseName)) !!}">{{$item->courseName}}</a></li>
+                                            <li><a href="{!! url('/curso/' . urlencode($item->courseName)) !!}">{{ $item->courseName }}</a></li>
                                         @endforeach
                                     @endif
 
                             </div>
                         </div>
                     </div>
+
+
+
+
                     <div class="col-lg-3 col-md-6 col-12">
+                        <div class="single-footer-caption mb-50">
+                            <div class="footer-tittle">
+                                <h4>OUTROS LINKS</h4>
+                                <ul>
+
+                                    <li><a href="{{ route('site.news') }}">Noticia</a></li>
+                                    <li><a href="{{ route('site.gallery') }}">Galeria</a></li>
+                                    <li><a href="{{ route('site.visions') }}">Visão </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+                    {{--
+
+   <div class="col-lg-3 col-md-6 col-12">
                         <div class="single-footer-caption mb-50">
                             <div class="footer-tittle">
                                 <h4>Links Rápidos</h4>
@@ -95,6 +122,16 @@
                         </div>
                     </div>
 
+
+
+
+
+
+
+--}}
+
+
+
                 </div>
             </div>
         </div>
@@ -106,9 +143,9 @@
                     <div class="col-xl-12 ">
                         <div class="footer-copy-right text-center">
                             <p>
-                                IPIKK © {{ DATE('Y') }} - Todos Direitos Reservados.
+                                IMED © {{ DATE('Y') }} - Todos Direitos Reservados.
                                 by
-                                <a href="https://infosi.gov.ao/" target="_blank">INFOSI</a>
+                                <a href="https://imed.gov.ao/" target="_blank">IMED</a>
 
                             </p>
                         </div>

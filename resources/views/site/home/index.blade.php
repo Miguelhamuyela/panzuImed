@@ -202,34 +202,7 @@
 
         </section><!-- End filiateds Section -->
 
-        <section class="brand-area mb-5">
-            <div class="container">
-                <div class="row wrapper-brand justify-content-center ">
-                    <div class="col-xl-5 col-lg-9 col-md-8">
-
-                        <div class="section-tittle text-center mt-5 mb-50">
-
-                            <h3>Parceiros</h3>
-                        </div>
-                    </div>
-                    <div class="col-xl-12">
-
-                        <div class="brand-active  pt-40 pb-40 ">
-                            @foreach ($partners as $item)
-                                <div class="single-brand">
-                                    <a href="{{ $item->link }}" target="_blank">
-                                        <img src="/storage/{{ $item->image }}" alt="{{ $item->name }}"
-                                            style="width: 190px;height:80px;" class="img-fluid">
-                                    </a>
-                                </div>
-                            @endforeach
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
+ 
 
 
     </main>

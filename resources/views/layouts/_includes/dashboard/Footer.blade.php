@@ -1,8 +1,8 @@
 <footer class="py-1 mt-4 bg-primary">
     <p class="text-white text-center mt-3">
-        IPIKK © {{ DATE('Y') }} - Todos Direitos Reservados.
+        IMED© {{ DATE('Y') }} - Todos Direitos Reservados.
         by
-        <a class="text-white" href="https://infosi.gov.ao/" target="_blank">INFOSI</a>
+        <a class="text-white" href="https://imed.gov.ao/" target="_blank">IMED</a>
 
     </p>
 </footer>
