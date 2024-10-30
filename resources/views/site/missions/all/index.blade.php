@@ -1,5 +1,5 @@
 @extends('layouts.merge.site')
-@section('titulo', 'Notícias')
+@section('titulo', 'Missão')
 @section('content')
     <main>
 
@@ -10,7 +10,7 @@
                         <div class="col-xxl-12">
 
                             <div class="hero-caption hero-caption2">
-                                <h2>Notícias</h2>
+                                <h2>Missão</h2>
                             </div>
                         </div>
                     </div>
@@ -22,9 +22,9 @@
 
             <div class="container">
                 <div class="row">
-                    @foreach ($news as $item)
+                    @foreach ($missions as $item)
                         <div class="col-lg-4 col-md-6 px-1 my-1">
-                            <a href="{!! url('/noticia/' . urlencode($item->title)) !!}">
+                            <a href="{!! url('/missions/' . urlencode($item->title)) !!}">
                                 <div
                                     style='background-image:url("/storage/{{ $item->path }}");background-position:center;background-size:cover;height:250px;'>
                                 </div>
@@ -39,7 +39,7 @@
             </div>
             <div class="row justify-content-center">
                 <div class="col-md-3">
-                    <h6>{{ $news->links() }}</h6>
+                    <h6>{{ $missions->links() }}</h6>
                 </div>
             </div>
         </section>

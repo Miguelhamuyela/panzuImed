@@ -205,7 +205,7 @@ hr {
 }
 
 #back-top {
-    background: #316EC2;
+    background: #7f0000;
     height: 40px;
     width: 40px;
     right: 31px;
@@ -499,7 +499,7 @@ hr {
 }
 
 .section-tittle span {
-    color: #316EC2;
+    color: #fe6d4c;
     text-transform: uppercase;
     font-size: 14px;
     letter-spacing: .2em;
@@ -572,7 +572,7 @@ hr {
 }
 
 .section-tittle h2 span {
-    color: #316EC2
+    color: #fe6d4c
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -588,7 +588,7 @@ hr {
 }
 
 .btn {
-    background: #316EC2;
+    background: #fe6d4c;
     font-family: "Rubik", sans-serif;
     text-transform: inherit !important;
     padding: 30px 52px;
@@ -642,7 +642,7 @@ hr {
 }
 
 .browse-btn2 {
-    color: #316EC2 !important;
+    color: #fe6d4c !important;
     font-weight: 400;
     font-size: 16px;
     position: relative;
@@ -730,17 +730,17 @@ hr {
 }
 
 .hero-btn:hover {
-    border: 2px solid #316EC2;
+    border: 2px solid #fe6d4c;
     color: #fff !important
 }
 
 .hero-btn:hover i {
-    color: #316EC2
+    color: #fe6d4c
 }
 
 .submit-btn {
     width: 100%;
-    background: #316EC2;
+    background: #fe6d4c;
     font-family: "Rubik", sans-serif;
     text-transform: inherit !important;
     padding: 25px 43px;
@@ -853,8 +853,8 @@ hr {
 }
 
 .btn_01 {
-    color: #316EC2 !important;
-    border: 2px solid #316EC2;
+    color: #fe6d4c !important;
+    border: 2px solid #fe6d4c;
     display: inline-block;
     padding: 10px 34px;
     text-transform: capitalize;
@@ -865,7 +865,7 @@ hr {
 }
 
 .btn_01 i {
-    color: #316EC2;
+    color: #fe6d4c;
     -webkit-transition: all .4s ease-out 0s;
     -moz-transition: all .4s ease-out 0s;
     -ms-transition: all .4s ease-out 0s;
@@ -879,8 +879,8 @@ hr {
 }
 
 .btn_01:hover {
-    background-color: #316EC2;
-    border: 2px solid #316EC2;
+    background-color: #fe6d4c;
+    border: 2px solid #fe6d4c;
     color: #fff !important
 }
 
@@ -894,7 +894,7 @@ hr {
 }
 
 .btn_01.btn_wnat:hover {
-    border: 2px solid #316EC2
+    border: 2px solid #fe6d4c
 }
 
 .btn.focus,
@@ -911,25 +911,25 @@ hr {
 
 .boxed-btn {
     background: #fff;
-    color: #316EC2 !important;
+    color: #fe6d4c !important;
     display: inline-block;
     padding: 12px 22px;
     font-family: "Rubik", sans-serif;
     font-size: 14px;
     font-weight: 400;
     border: 0;
-    border: 1px solid #316EC2;
+    border: 1px solid #fe6d4c;
     letter-spacing: 1px;
     text-align: center;
-    color: #316EC2;
+    color: #fe6d4c;
     text-transform: uppercase;
     cursor: pointer
 }
 
 .boxed-btn:hover {
-    background: #316EC2;
+    background: #fe6d4c;
     color: #fff !important;
-    border: 1px solid #316EC2
+    border: 1px solid #fe6d4c
 }
 
 .boxed-btn:focus {
@@ -1054,7 +1054,7 @@ hr {
 }
 
 .header-area .header-top .header-info-right .header-social li a:hover i {
-    color: #316EC2;
+    color: #fe6d4c;
     transform: rotateY(180deg);
     -webkit-transform: rotateY(180deg);
     -moz-transform: rotateY(180deg);
@@ -1158,7 +1158,7 @@ hr {
 }
 
 .header-area .header-bottom .left-side .main-menu ul>li:hover>a {
-    color: #316EC2
+    color: #fe6d4c
 }
 
 .header-area .header-bottom .left-side .main-menu ul>li:hover>a::after {
@@ -1210,7 +1210,7 @@ hr {
 }
 
 .header-area .header-bottom .left-side .main-menu ul ul.submenu>li>a:hover {
-    color: #316EC2;
+    color: #fe6d4c;
     background: none
 }
 
@@ -1737,7 +1737,7 @@ hr {
 }
 
 .visit-tailor-area .tailor-details span {
-    color: #316EC2;
+    color: #fe6d4c;
     text-transform: uppercase;
     font-size: 14px;
     letter-spacing: .2em;
@@ -1787,7 +1787,7 @@ hr {
 }
 
 .visit-tailor-area .tailor-details h2 span {
-    color: #316EC2
+    color: #fe6d4c
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -2051,7 +2051,7 @@ hr {
 }
 
 .popular-directorya-area .properties .properties-caption .ratting ul li i {
-    color: #316EC2;
+    color: #fe6d4c;
     font-size: 14px
 }
 
@@ -2070,7 +2070,7 @@ hr {
 
 .popular-directorya-area .properties .properties-caption h3 a:hover,
 .popular-directorya-area .properties .properties-caption h3 .properties-card {
-    color: #316EC2
+    color: #fe6d4c
 }
 
 .popular-directorya-area .properties .properties-caption h3 img {
@@ -2210,7 +2210,7 @@ hr {
 }
 
 .categories-area .single-cat:hover .cat-cap h5 a {
-    color: #316EC2
+    color: #fe6d4c
 }
 
 .categories-area .single-cat:hover .cat-cap .browse-btn2 {
@@ -2331,7 +2331,7 @@ hr {
 }
 
 .footer-wrapper .footer-area .footer-form form .form-icon button i {
-    color: #316EC2
+    color: #fe6d4c
 }
 
 .footer-wrapper .footer-area .info.error {
@@ -2352,7 +2352,7 @@ hr {
 }
 
 .footer-bottom-area .footer-copy-right p i {
-    color: #316EC2
+    color: #fe6d4c
 }
 
 .footer-bottom-area .footer-copy-right p a {
@@ -2545,7 +2545,7 @@ ul.footer-social li .ins {
 
 .blog_area a:hover,
 .blog_area a :hover {
-    background: -webkit-linear-gradient(131deg, #316EC2 0%, #316EC2 99%);
+    background: -webkit-linear-gradient(131deg, #fe6d4c 0%, #fe6d4c 99%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-decoration: none;
@@ -2576,7 +2576,7 @@ ul.footer-social li .ins {
 }
 
 .blog_details a:hover {
-    color: #316EC2
+    color: #fe6d4c
 }
 
 .blog_details h2 {
@@ -2634,7 +2634,7 @@ ul.footer-social li .ins {
     left: 10px;
     display: block;
     color: #fff;
-    background-color: #316EC2;
+    background-color: #fe6d4c;
     padding: 8px 15px;
     border-radius: 5px
 }
@@ -2716,7 +2716,7 @@ ul.footer-social li .ins {
 }
 
 .blog_right_sidebar .search_widget .input-group button {
-    background: #316EC2;
+    background: #fe6d4c;
     border-left: 0;
     border: 1px solid #f0e9ff;
     padding: 12px 15px;
@@ -2834,7 +2834,7 @@ ul.footer-social li .ins {
 }
 
 .blog_right_sidebar .tag_cloud_widget ul li a:hover {
-    background: #316EC2;
+    background: #fe6d4c;
     color: #fff !important;
     -webkit-text-fill-color: #fff;
     text-decoration: none;
@@ -3019,7 +3019,7 @@ ul.footer-social li .ins {
 }
 
 .single-post-area .blog-author a:hover {
-    color: #316EC2
+    color: #fe6d4c
 }
 
 .single-post-area .blog-author p {
@@ -4714,7 +4714,7 @@ del {
 .filiateds .filiated-item p {
     font-style: italic;
     margin: 0 auto 15px auto;
-    color: #316EC2;
+    color: #fe6d4c;
     border: white;
 }
 

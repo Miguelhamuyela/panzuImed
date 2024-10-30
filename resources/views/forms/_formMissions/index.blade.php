@@ -1,4 +1,4 @@
-@isset($news)
+@isset($missions)
 
 
     <div class="col-12 col-lg-12">
@@ -12,7 +12,7 @@
 
             <div class="card border-0 bg-transparent">
                 <div class="card-img-top img-fluid rounded"
-                    style='background-image:url("/storage/{{ $news->path }}");background-position:center;background-size:cover;height:200px;'>
+                    style='background-image:url("/storage/{{ $missions->path }}");background-position:center;background-size:cover;height:200px;'>
                 </div>
 
             </div> <!-- .card -->
@@ -25,7 +25,7 @@
 <div class="col-md-8">
     <div class="form-group">
         <label for="title">Titulo</label>
-        <input type="text" name="title" id="title" value="{{ isset($news->title) ? $news->title : old('title') }}"
+        <input type="text" name="title" id="title" value="{{ isset($missions->title) ? $missions->title : old('title') }}"
             class="form-control border-secondary" placeholder="Titulo" required>
     </div>
 </div> <!-- /.col -->
@@ -33,7 +33,7 @@
 <div class="col-md-4">
     <div class="form-group">
         <label for="date">Date de Inserção</label>
-        <input type="date" name="date" id="date" value="{{ isset($news->date) ? $news->date : old('date') }}"
+        <input type="date" name="date" id="date" value="{{ isset($missions->date) ? $missions->date : old('date') }}"
             class="form-control border-secondary" required>
     </div>
 </div> <!-- /.col -->
@@ -44,7 +44,7 @@
     <div class="form-group">
         <label for="typewriter">Autor da Matéria</label>
         <input type="text" name="typewriter" id="typewriter"
-            value="{{ isset($news->typewriter) ? $news->typewriter : old('typewriter') }}"
+            value="{{ isset($missions->typewriter) ? $missions->typewriter : old('typewriter') }}"
             class="form-control border-secondary" placeholder="Autor da Matéria" required>
     </div>
 </div> <!-- /.col -->
@@ -66,7 +66,7 @@
             <p>Digite o corpo da matéria</p>
             <!-- Create the editor container -->
             <textarea name="body" id="editor1" style="min-height:300px; min-width:100%" >
-                {{ isset($news->body) ? $news->body : old('body')}}
+                {{ isset($missions->body) ? $missions->body : old('body')}}
             </textarea>
         </div>
     </div>

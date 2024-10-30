@@ -173,7 +173,7 @@
                                 </ul>
                             </li>
 
-                           {{--
+                            {{--
 
                             <li class="nav-item dropdown">
                                 <a href="#registration" data-toggle="collapse" aria-expanded="false"
@@ -437,6 +437,28 @@ news --}}
                                 <li class="nav-item">
                                     <a class="nav-link pl-3" href="{{ route('admin.visions.index') }}">
                                         <span class="ml-1 item-text">Listar a Visão</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+
+                        <li class="nav-item dropdown">
+                            <a href="#missions" data-toggle="collapse" aria-expanded="false"
+                                class="dropdown-toggle nav-link">
+                                <i class="fe fe-rss fe-16"></i>
+                                <span class="ml-3 item-text"> Missão </span>
+                            </a>
+                            <ul class="collapse list-unstyled pl-4 w-100" id="missions">
+
+                                <li class="nav-item">
+                                    <a class="nav-link pl-3" href="{{ route('admin.missions.create') }}">
+                                        <span class="ml-1 item-text">Cadastrar a Missão</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link pl-3" href="{{ route('admin.visions.index') }}">
+                                        <span class="ml-1 item-text">Listar a Missão</span>
                                     </a>
                                 </li>
                             </ul>
