@@ -111,7 +111,7 @@
                                         </ul>
 
                                     </li>
-                                    <li><a href="{{ route('site.news') }}">Visão</a></li>
+                                    <li><a href="{{ route('site.visions') }}">Visão</a></li>
                                      <li><a href="{{ route('site.news') }}">Missão</a></li>
                                     <li><a href="{{ route('site.news') }}">Notícias</a></li>
                                     <li><a href="{{ route('site.gallery') }}">Galerias</a></li>

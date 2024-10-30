@@ -414,6 +414,37 @@ news --}}
                                 </li>
                             </ul>
                         </li>
+
+
+
+                        {{-- Menu de Visão --}}
+                        <p class="text-muted nav-heading mt-2 mb-1">
+                            <span> Visão </span>
+                        </p>
+                        <li class="nav-item dropdown">
+                            <a href="#visions" data-toggle="collapse" aria-expanded="false"
+                                class="dropdown-toggle nav-link">
+                                <i class="fe fe-rss fe-16"></i>
+                                <span class="ml-3 item-text"> Visão </span>
+                            </a>
+                            <ul class="collapse list-unstyled pl-4 w-100" id="visions">
+
+                                <li class="nav-item">
+                                    <a class="nav-link pl-3" href="{{ route('admin.visions.create') }}">
+                                        <span class="ml-1 item-text">Cadastrar a Visão</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link pl-3" href="{{ route('admin.visions.index') }}">
+                                        <span class="ml-1 item-text">Listar a Visão</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+
+
+
                         {{-- Menu de Parceiros --}}
                         <p class="text-muted nav-heading mt-2 mb-1">
                             <span> Parceiros </span>

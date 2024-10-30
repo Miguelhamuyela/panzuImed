@@ -8,6 +8,10 @@ route::get('/', ['as' => 'site.home', 'uses' => 'Site\HomeController@index']);
 Route::get('/noticias', ['as' => 'site.news', 'uses' => 'Site\NewsController@index']);
 Route::get('/noticia/{title}', ['as' => 'site.news.show', 'uses' => 'Site\NewsController@show']);
 
+/* visao */
+Route::get('/visao', ['as' => 'site.visions', 'uses' => 'Site\VisionsController@index']);
+Route::get('/visao/{title}', ['as' => 'site.visions.show', 'uses' => 'Site\VisionsController@show']);
+
 /* Galeria fotos */
 Route::get('/galerias/', ['as' => 'site.gallery', 'uses' => 'Site\GalleryController@index']);
 Route::get('/galeria/{name}', ['as' => 'site.gallery.show', 'uses' => 'Site\GalleryController@show']);
