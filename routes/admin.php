@@ -101,6 +101,18 @@ Route::get('admin/galeria-de-alumni/delete/{id}', ['as' => 'admin.alumniGallery.
         Route::get('admin/slideshow/delete/{id}', ['as' => 'admin.slideshow.delete', 'uses' => 'Admin\SlideShowController@destroy']);
         /* end slideshow */
 
+        /* missions */
+        Route::get('admin/missions/index', ['as' => 'admin.missions.index', 'uses' => 'Admin\MissionsController@list']);
+        Route::get('admin/missions/show/{id}', ['as' => 'admin.missions.show', 'uses' => 'Admin\MissionsController@show']);
+
+        Route::get('admin/missions/create', ['as' => 'admin.missions.create', 'uses' => 'Admin\MissionsController@create']);
+        Route::post('admin/missions/store', ['as' => 'admin.missions.store', 'uses' => 'Admin\MissionsController@store']);
+
+        Route::get('admin/missions/edit/{id}', ['as' => 'admin.missions.edit', 'uses' => 'Admin\MissionsController@edit']);
+        Route::put('admin/missions/update/{id}', ['as' => 'admin.missions.update', 'uses' => 'Admin\MissionsController@update']);
+
+        Route::get('admin/missions/delete/{id}', ['as' => 'admin.missions.delete', 'uses' => 'Admin\MissionsController@destroy']);
+        /* end missions */
 
 
         /* news */
