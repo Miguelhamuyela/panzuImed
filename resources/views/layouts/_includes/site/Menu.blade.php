@@ -103,7 +103,7 @@
                                             </li>
                                             <li><a href="{{ route('site.normative') }}">Documentos </a> </li>
                                             <li><a href="{{ route('site.route') }}">Percurso</a> </li>
-                                            <li><a href="{{ route('site.affiliatedSchools') }}">Paróquias/Centro</a>
+
                                             </li>
 
 
@@ -112,7 +112,8 @@
 
                                     </li>
                                     <li><a href="{{ route('site.visions') }}">Visão</a></li>
-                                     <li><a href="{{ route('site.missions') }}">Missão</a></li>
+                                    <li><a href="{{ route('site.missions') }}">Missão</a></li>
+                                    <li><a href="{{ route('site.affiliatedSchools') }}">Paróquia/Centro</a></li>
                                     <li><a href="{{ route('site.news') }}">Notícias</a></li>
                                     <li><a href="{{ route('site.gallery') }}">Galerias</a></li>
                                     <li><a href="{{ route('site.contact') }}">Contactos</a></li>

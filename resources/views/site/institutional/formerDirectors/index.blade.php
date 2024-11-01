@@ -1,5 +1,5 @@
 @extends('layouts.merge.site')
-@section('titulo', 'Ex-Directores Gerais')
+@section('titulo', 'Os Antigo Membros')
 @section('content')
     <main>
 
@@ -10,7 +10,7 @@
                         <div class="col-xxl-12">
 
                             <div class="hero-caption hero-caption2">
-                                <h2 class="text-white">Ex-Directores Gerais</h2>
+                                <h2 class="text-white">Os Antigo Membros</h2>
                             </div>
                         </div>
                     </div>

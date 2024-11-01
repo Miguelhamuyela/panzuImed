@@ -1,5 +1,5 @@
 @extends('layouts.merge.site')
-@section('titulo', 'Órgãos Directivos')
+@section('titulo', 'Órgãos do Imed')
 @section('content')
     <main>
 
@@ -10,7 +10,7 @@
                         <div class="col-xxl-12">
 
                             <div class="hero-caption hero-caption2">
-                                <h2 class="text-white">Órgãos Directivos</h2>
+                                <h2 class="text-white">Órgãos do Imed</h2>
                             </div>
                         </div>
                     </div>
@@ -27,7 +27,7 @@
                     @foreach ($governieBodie as $item)
                         @if ($item->function == 'Director')
 
-                            <h4 class="text-center">Direcção Executiva</h4>
+                            <h4 class="text-center">Instrutura  da Direcção</h4>
                             <hr>
 
                             <div class="col-md-4 shadow-lg border-dark mt-1 rounded" >
@@ -99,7 +99,7 @@
             <div class="container">
                 <div class="row justify-content-center">
 
-                    <h4 class="text-center mt-5">Coordenadores de Curso</h4>
+                    <h4 class="text-center mt-5">Coordenadores</h4>
                     <hr>
 
 
@@ -142,7 +142,7 @@
             <div class="container">
                 <div class="row justify-content-center">
 
-                    <h4 class="text-center mt-5">Coordenadores de Disciplinas</h4>
+                    <h4 class="text-center mt-5">Coordenadores das Actividades</h4>
                     <hr>
 
 
@@ -194,7 +194,7 @@
             <div class="container">
                 <div class="row justify-content-center">
 
-                    <h4 class="text-center mt-5">Chefes de Área</h4>
+                    <h4 class="text-center mt-5">Líderes das Áreas</h4>
                     <hr>
 
 
@@ -236,7 +236,7 @@
             <div class="container">
                 <div class="row justify-content-center">
 
-                    <h4 class="text-center mt-5">Outros Coordenadores</h4>
+                    <h4 class="text-center mt-5">Outros Líderes</h4>
                     <hr>
 
 

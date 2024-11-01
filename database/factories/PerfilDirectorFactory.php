@@ -23,8 +23,8 @@ class PerfilDirectorFactory extends Factory
     public function definition()
     {
         return [
-            'name' => "Ferreira Manuel Fragoso",
-            'description' => "Aqui vai um breve historial sobre o director Ferreira Manuel Fragoso",
+            'name' => "Agostinho Panzu",
+            'description' => "Aqui vai um breve historial sobre o Fundador Agostinho Panzu",
             'image' => ""
 
         ];

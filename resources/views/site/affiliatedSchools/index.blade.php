@@ -38,13 +38,14 @@
                                         <div id="collapse{{ $item->id }}" class="accordion-collapse collapse "
                                             aria-labelledby="heading{{ $item->id }}" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
-                                                Nome da Escola: {{ $item->name }} <br>
+                                                <strong>Nome da Paróquia ou Centro:</strong> {{ $item->name }} <br>
+                                               <strong>Nome do Pastor:</strong>  {{ $item->site }}<br>
+                                                <strong>Email da Paróquia ou Centro:</strong> {{ $item->email }} <br>
 
-                                                Email: {{ $item->email }} <br>
+                                                <strong>Telefone da Paróquia ou Centro:</strong> {{ $item->tel }} <br>
 
-                                                Telefone: {{ $item->tel }} <br>
+                                                <strong>Endereço da Paróquia ou Centro:</strong> {{ $item->address }}
 
-                                                Endereço: {{ $item->address }}
                                             </div>
                                         </div>
                                     </div>

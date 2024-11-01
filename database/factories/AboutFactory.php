@@ -17,8 +17,8 @@ class AboutFactory extends Factory
     {
 
         return [
-            'title' => "Aqui vai o titulo ",
-            'body' => "Aqui vai o corpo  ",
+            'title' => " ",
+            'body' => " ",
 
         ];
     }

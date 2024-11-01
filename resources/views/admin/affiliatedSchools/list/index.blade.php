@@ -20,7 +20,7 @@
                             <th>TELEFONE</th>
                             <th>EMAIL</th>
                             <th>ENDEREÇO</th>
-                            <th>SITE</th>
+                            <th>PASTOR</th>
                             <th>ACÇÕES</th>
                         </tr>
                     </thead>

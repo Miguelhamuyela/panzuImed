@@ -1,9 +1,9 @@
 <div class="col-md-8">
     <div class="form-group">
-        <label for="Nome do Aluno">Nome da Escola</label>
+        <label for="Nome do Aluno">Paróquia/Centro</label>
         <input type="text" name="name" id="name"
             value="{{ isset($affiliated->name) ? $affiliated->name : '' }}"
-            class="form-control border-secondary" placeholder="Nome da Escola" required>
+            class="form-control border-secondary" placeholder="Paróquia/Centro" required>
     </div>
 </div> <!-- /.col -->
 
@@ -35,9 +35,9 @@
 
 <div class="col-md-4">
     <div class="form-group">
-        <label for="Classe">Site</label>
+        <label for="Classe">Nome do Pastor</label>
         <input value="{{ isset($affiliated->site) ? $affiliated->site : '' }}"
-            class="form-control border-secondary" type="text" placeholder="Site" name="site" id="site">
+            class="form-control border-secondary" type="text" placeholder="Nome do Pastor" name="site" id="site">
     </div>
 </div> <!-- /.col -->
 

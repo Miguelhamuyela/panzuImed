@@ -1,11 +1,11 @@
 @extends('layouts.merge.dashboard')
-@section('titulo', 'Lista de Órgãos Directivos')
+@section('titulo', 'Lista de Órgãos da Imed')
 
 @section('content')
     <div class="card mb-2">
         <div class="card-body">
             <h2 class="h5 page-title">
-                Lista de Órgãos Directivos
+                Lista de Órgãos da Imed
             </h2>
         </div>
     </div>

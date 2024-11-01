@@ -30,11 +30,6 @@
         <!-- ====== Slideshow End ====== -->
 
 
-
-
-
-
-
         {{--
         <section class="brand-area ">
             <div class="container">
@@ -71,8 +66,6 @@
         </section>
 
 --}}
-
-
 
 
 

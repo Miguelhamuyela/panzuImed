@@ -87,7 +87,7 @@
                                 <a href="#institutional" data-toggle="collapse" aria-expanded="false"
                                     class="dropdown-toggle nav-link">
                                     <i class="fe fe-layers"></i>
-                                    <span class="ml-3 item-text">Organigrama</span>
+                                    <span class="ml-3 item-text">Instrutura da imed</span>
                                 </a>
                                 <ul class="collapse list-unstyled pl-4 w-100" id="institutional">
 
@@ -100,7 +100,7 @@
                                     <li class="nav-item dropdown">
                                         <a href="#governingBodie" data-toggle="collapse" aria-expanded="false"
                                             class="dropdown-toggle pl-3 nav-link">
-                                            <span class="ml-1 item-text">Órgãos Directivos</span>
+                                            <span class="ml-1 item-text">Órgãos da Imed</span>
                                         </a>
 
                                         <ul class="collapse list-unstyled pl-4 w-100" id="governingBodie">
@@ -108,14 +108,14 @@
                                             <li class="nav-item">
                                                 <a class="nav-link pl-3"
                                                     href="{{ route('admin.governingBodie.create') }}">
-                                                    <span class="ml-1 item-text">Cadastrar Órgão Directivo</span>
+                                                    <span class="ml-1 item-text">Cadastrar Órgão da Imed</span>
                                                 </a>
                                             </li>
 
                                             <li class="nav-item">
                                                 <a class="nav-link pl-3"
                                                     href="{{ route('admin.governingBodie.index') }}">
-                                                    <span class="ml-1 item-text">Listar Órgão Directivo</span>
+                                                    <span class="ml-1 item-text">Listar Órgão da Imed</span>
                                                 </a>
                                             </li>
 
@@ -126,7 +126,7 @@
                                     <li class="nav-item dropdown">
                                         <a href="#formerDirector" data-toggle="collapse" aria-expanded="false"
                                             class="dropdown-toggle pl-3 nav-link">
-                                            <span class="ml-1 item-text">Ex-Directores</span>
+                                            <span class="ml-1 item-text">Ex-Órgão</span>
                                         </a>
 
                                         <ul class="collapse list-unstyled pl-4 w-100" id="formerDirector">
@@ -134,14 +134,14 @@
                                             <li class="nav-item">
                                                 <a class="nav-link pl-3"
                                                     href="{{ route('admin.formerDirector.create') }}">
-                                                    <span class="ml-1 item-text">Cadastrar Ex-Directores</span>
+                                                    <span class="ml-1 item-text">Cadastrar Ex-Órgão</span>
                                                 </a>
                                             </li>
 
                                             <li class="nav-item">
                                                 <a class="nav-link pl-3"
                                                     href="{{ route('admin.formerDirector.index') }}">
-                                                    <span class="ml-1 item-text">Listar Ex-Directores</span>
+                                                    <span class="ml-1 item-text">Listar Ex-Órgão</span>
                                                 </a>
                                             </li>
 
@@ -196,9 +196,7 @@
                                 </ul>
                             </li>
 
-news --}}
-
-
+                           news --}}
 
                             <li class="nav-item dropdown">
                                 <a href="#affiliateSchools" data-toggle="collapse" aria-expanded="false"

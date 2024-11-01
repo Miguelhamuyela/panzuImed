@@ -47,16 +47,12 @@
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                         <a href='{{ url("admin/missions/show/{$item->id}") }}'
                                             class="dropdown-item">Detalhes</a>
-
                                         <a href='{{ url("admin/missions/edit/{$item->id}") }}'
                                             class="dropdown-item">Editar</a>
-
 
                                         <a href='{{ url("admin/missions/delete/{$item->id}") }}' class="dropdown-item">
                                             Eliminar
                                         </a>
-
-
 
                                     </div>
                                 </div>

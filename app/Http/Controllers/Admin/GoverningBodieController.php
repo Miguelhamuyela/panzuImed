@@ -27,7 +27,7 @@ class GoverningBodieController extends Controller
     {
         $response['governingBodies'] = GoverningBodie::orderBy('id', 'desc')->get();
         //Logger
-        $this->Logger->log('info', 'Listou os Órgãos Directivos em Institucional');
+        $this->Logger->log('info', 'Listou os Órgãos da Imed em Institucional');
         return view('admin.institutional.governingBodies.list.index', $response);
     }
 
