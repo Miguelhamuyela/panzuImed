@@ -5,7 +5,7 @@
     <div class="card mb-2">
         <div class="card-body">
             <h2 class="h5 page-title">
-                <a href="{{ route('admin.about.show') }}"><u>Ver Sobre o IMED</u></a> > Editar Sobre o IMED
+                <a href="{{ route('admin.about.show') }}"><u>Ver Sobre o imed</u></a> > Editar Sobre o IMED
             </h2>
         </div>
     </div>

@@ -5,7 +5,7 @@
     <div class="card mb-2">
         <div class="card-body">
             <h2 class="h5 page-title">
-                <a href="{{ route('admin.missions.index') }}"><u>Listar Notícias</u></a> > {{ $missions->title }}
+                <a href="{{ route('admin.missions.index') }}"><u>Listar a Missão</u></a> > {{ $missions->title }}
             </h2>
         </div>
     </div>

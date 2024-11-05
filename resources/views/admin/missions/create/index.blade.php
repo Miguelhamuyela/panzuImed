@@ -5,7 +5,7 @@
     <div class="card mb-2">
         <div class="card-body">
             <h2 class="h5 page-title">
-                Cadastrar Missão
+                Cadastrar a Missão
             </h2>
         </div>
     </div>

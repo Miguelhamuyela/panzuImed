@@ -9,7 +9,7 @@
                 <div class="row align-items-center">
                     <div class="col">
                         <h2 class="h5 page-title">
-                            Detalhes Sobre o IMED
+                            Detalhes Sobre o imed
                         </h2>
                     </div>
                     <div class="col-auto">

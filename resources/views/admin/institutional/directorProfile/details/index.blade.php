@@ -1,5 +1,5 @@
 @extends('layouts.merge.dashboard')
-@section('titulo', 'Perfil Do Director')
+@section('titulo', 'Pastor Geral')
 
 @section('content')
     <div class="card mb-2">
@@ -9,7 +9,7 @@
                 <div class="row align-items-center">
                     <div class="col">
                         <h2 class="h5 page-title">
-                            Perfil Do Director
+                            Pastor Geral
                         </h2>
                     </div>
                     <div class="col-auto">

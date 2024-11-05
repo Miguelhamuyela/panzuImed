@@ -1,5 +1,5 @@
 @extends('layouts.merge.dashboard')
-@section('titulo', 'Lista de Normativos')
+@section('titulo', 'Lista de Normativo')
 
 @section('content')
 

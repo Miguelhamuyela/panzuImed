@@ -1,13 +1,13 @@
 @extends('layouts.merge.dashboard')
-@section('titulo', 'Editar Perfil Do Director')
+@section('titulo', 'Editar o Pastor Geral')
 
 @section('content')
     <div class="card mb-2">
         <div class="card-body">
             <h2 class="h5 page-title">
-                <a href="{{ route('admin.perfilDirector.show') }}"><u>Ver Perfil Do Pastor Geral</u></a>
+                <a href="{{ route('admin.perfilDirector.show') }}"><u>Pastor Geral</u></a>
 
-                >  Perfil Do Pastor Geral
+                > Pastor Geral
 
             </h2>
         </div>

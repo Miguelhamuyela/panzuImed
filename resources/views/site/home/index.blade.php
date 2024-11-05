@@ -15,11 +15,13 @@
                                     {{ $item->title }}
                                 </h2>
                             @endif
+                            {{--
                             @if ($item->link)
                                 <a href="{{ $item->link }}" class="btn_01 btn_wnat">
                                     {{ $item->button }}
                                 </a>
                             @endif
+                            --}}
                         </div>
 
 
