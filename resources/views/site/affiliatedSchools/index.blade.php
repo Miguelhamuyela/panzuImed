@@ -1,5 +1,5 @@
 @extends('layouts.merge.site')
-@section('titulo', 'Escolas Filiadas')
+@section('titulo', 'Paróquia/Centro')
 @section('content')
     <main>
 
@@ -9,7 +9,7 @@
                     <div class="row">
                         <div class="col-xxl-12">
                             <div class="hero-caption hero-caption2">
-                                <h2 class="text-white">Escolas Filiadas</h2>
+                                <h2 class="text-white">Paróquia/Centro</h2>
                             </div>
                         </div>
                     </div>
@@ -38,13 +38,14 @@
                                         <div id="collapse{{ $item->id }}" class="accordion-collapse collapse "
                                             aria-labelledby="heading{{ $item->id }}" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
-                                                Nome da Escola: {{ $item->name }} <br>
+                                                <strong>Nome da Paróquia ou Centro:</strong> {{ $item->name }} <br>
+                                               <strong>Nome do Pastor:</strong>  {{ $item->site }}<br>
+                                                <strong>Email da Paróquia ou Centro:</strong> {{ $item->email }} <br>
 
-                                                Email: {{ $item->email }} <br>
+                                                <strong>Telefone da Paróquia ou Centro:</strong> {{ $item->tel }} <br>
 
-                                                Telefone: {{ $item->tel }} <br>
+                                                <strong>Endereço da Paróquia ou Centro:</strong> {{ $item->address }}
 
-                                                Endereço: {{ $item->address }}
                                             </div>
                                         </div>
                                     </div>

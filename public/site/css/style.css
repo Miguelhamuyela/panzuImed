@@ -13,7 +13,7 @@ h4,
 h5,
 h6 {
     font-family: "Rubik", sans-serif;
-    color: #003072;
+    color: #fc1406;
     margin-top: 0px;
     font-style: normal;
     font-weight: 500;
@@ -145,7 +145,7 @@ a:hover {
 
 a,
 button {
-    color: #003072;
+    color: #fc1406;
     margin-right: 20px;
     font-weight: bold;
 }
@@ -205,7 +205,7 @@ hr {
 }
 
 #back-top {
-    background: #316EC2;
+    background: #7f0000;
     height: 40px;
     width: 40px;
     right: 31px;
@@ -499,7 +499,7 @@ hr {
 }
 
 .section-tittle span {
-    color: #316EC2;
+    color: #fe6d4c;
     text-transform: uppercase;
     font-size: 14px;
     letter-spacing: .2em;
@@ -572,7 +572,7 @@ hr {
 }
 
 .section-tittle h2 span {
-    color: #316EC2
+    color: #fe6d4c
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -588,7 +588,7 @@ hr {
 }
 
 .btn {
-    background: #316EC2;
+    background: #fe6d4c;
     font-family: "Rubik", sans-serif;
     text-transform: inherit !important;
     padding: 30px 52px;
@@ -642,7 +642,7 @@ hr {
 }
 
 .browse-btn2 {
-    color: #316EC2 !important;
+    color: #fe6d4c !important;
     font-weight: 400;
     font-size: 16px;
     position: relative;
@@ -666,7 +666,7 @@ hr {
 }
 
 .header-btn2 p {
-    color: #003072;
+    color: #fc1406;
     font-size: 16px;
     font-weight: 500;
     display: block;
@@ -730,17 +730,17 @@ hr {
 }
 
 .hero-btn:hover {
-    border: 2px solid #316EC2;
+    border: 2px solid #fe6d4c;
     color: #fff !important
 }
 
 .hero-btn:hover i {
-    color: #316EC2
+    color: #fe6d4c
 }
 
 .submit-btn {
     width: 100%;
-    background: #316EC2;
+    background: #fe6d4c;
     font-family: "Rubik", sans-serif;
     text-transform: inherit !important;
     padding: 25px 43px;
@@ -768,7 +768,7 @@ hr {
     top: 0;
     width: 101%;
     height: 101%;
-    background: #003072;
+    background: #fc1406;
     z-index: 1;
     border-radius: 5px;
     transition: transform 0.5s;
@@ -853,8 +853,8 @@ hr {
 }
 
 .btn_01 {
-    color: #316EC2 !important;
-    border: 2px solid #316EC2;
+    color: #fe6d4c !important;
+    border: 2px solid #fe6d4c;
     display: inline-block;
     padding: 10px 34px;
     text-transform: capitalize;
@@ -865,7 +865,7 @@ hr {
 }
 
 .btn_01 i {
-    color: #316EC2;
+    color: #fe6d4c;
     -webkit-transition: all .4s ease-out 0s;
     -moz-transition: all .4s ease-out 0s;
     -ms-transition: all .4s ease-out 0s;
@@ -879,8 +879,8 @@ hr {
 }
 
 .btn_01:hover {
-    background-color: #316EC2;
-    border: 2px solid #316EC2;
+    background-color: #fe6d4c;
+    border: 2px solid #fe6d4c;
     color: #fff !important
 }
 
@@ -894,7 +894,7 @@ hr {
 }
 
 .btn_01.btn_wnat:hover {
-    border: 2px solid #316EC2
+    border: 2px solid #fe6d4c
 }
 
 .btn.focus,
@@ -911,25 +911,25 @@ hr {
 
 .boxed-btn {
     background: #fff;
-    color: #316EC2 !important;
+    color: #fe6d4c !important;
     display: inline-block;
     padding: 12px 22px;
     font-family: "Rubik", sans-serif;
     font-size: 14px;
     font-weight: 400;
     border: 0;
-    border: 1px solid #316EC2;
+    border: 1px solid #fe6d4c;
     letter-spacing: 1px;
     text-align: center;
-    color: #316EC2;
+    color: #fe6d4c;
     text-transform: uppercase;
     cursor: pointer
 }
 
 .boxed-btn:hover {
-    background: #316EC2;
+    background: #fe6d4c;
     color: #fff !important;
-    border: 1px solid #316EC2
+    border: 1px solid #fe6d4c
 }
 
 .boxed-btn:focus {
@@ -996,7 +996,7 @@ hr {
 
 .header-area .header-top .header-info-left ul li span {
     font-weight: 500;
-    color: #003072
+    color: #fc1406
 }
 
 .header-area .header-top .header-info-left ul li:last-child {
@@ -1022,7 +1022,7 @@ hr {
 }
 
 .header-area .header-top .header-info-right .header-social li a {
-    color: #003072;
+    color: #fc1406;
     font-size: 16px;
     padding-left: 19px
 }
@@ -1047,14 +1047,14 @@ hr {
 }
 
 .header-area .header-top .header-info-right p {
-    color: #003072;
+    color: #fc1406;
     font-size: 16px;
     padding-left: 19px;
     margin: auto;
 }
 
 .header-area .header-top .header-info-right .header-social li a:hover i {
-    color: #316EC2;
+    color: #fe6d4c;
     transform: rotateY(180deg);
     -webkit-transform: rotateY(180deg);
     -moz-transform: rotateY(180deg);
@@ -1136,7 +1136,7 @@ hr {
 }
 
 .header-area .header-bottom .left-side .main-menu ul>li a {
-    color: #003072;
+    color: #fc1406;
     font-family: "Fira Sans", sans-serif;
     font-weight: 400;
     padding: 29px 7px;
@@ -1158,7 +1158,7 @@ hr {
 }
 
 .header-area .header-bottom .left-side .main-menu ul>li:hover>a {
-    color: #316EC2
+    color: #fe6d4c
 }
 
 .header-area .header-bottom .left-side .main-menu ul>li:hover>a::after {
@@ -1200,7 +1200,7 @@ hr {
 .header-area .header-bottom .left-side .main-menu ul ul.submenu>li>a {
     padding: 6px 10px !important;
     font-size: 17px;
-    color: #003072;
+    color: #fc1406;
     font-weight: 400;
     text-transform: capitalize
 }
@@ -1210,7 +1210,7 @@ hr {
 }
 
 .header-area .header-bottom .left-side .main-menu ul ul.submenu>li>a:hover {
-    color: #316EC2;
+    color: #fe6d4c;
     background: none
 }
 
@@ -1368,14 +1368,14 @@ hr {
 }
 
 .slider-area {
-    background-color: #003072
+    background-color: #fc1406
 }
 
 .slider-area .hero-caption span {
     font-size: 14px;
     line-height: 1.2;
     font-weight: 300;
-    color: #003072;
+    color: #fc1406;
     margin-bottom: 20px;
     display: inline-block;
     background: #fff;
@@ -1737,7 +1737,7 @@ hr {
 }
 
 .visit-tailor-area .tailor-details span {
-    color: #316EC2;
+    color: #fe6d4c;
     text-transform: uppercase;
     font-size: 14px;
     letter-spacing: .2em;
@@ -1787,7 +1787,7 @@ hr {
 }
 
 .visit-tailor-area .tailor-details h2 span {
-    color: #316EC2
+    color: #fe6d4c
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -1848,7 +1848,7 @@ hr {
 }
 
 .about-area .wrapper-border {
-    background-color: #003072
+    background-color: #fc1406
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -1954,7 +1954,7 @@ hr {
 }
 
 .contact-wrappers {
-    background: #003072;
+    background: #fc1406;
     padding: 91px 0
 }
 
@@ -2051,7 +2051,7 @@ hr {
 }
 
 .popular-directorya-area .properties .properties-caption .ratting ul li i {
-    color: #316EC2;
+    color: #fe6d4c;
     font-size: 14px
 }
 
@@ -2070,7 +2070,7 @@ hr {
 
 .popular-directorya-area .properties .properties-caption h3 a:hover,
 .popular-directorya-area .properties .properties-caption h3 .properties-card {
-    color: #316EC2
+    color: #fe6d4c
 }
 
 .popular-directorya-area .properties .properties-caption h3 img {
@@ -2084,7 +2084,7 @@ hr {
 }
 
 .popular-directorya-area .properties .properties-caption p {
-    color: #003072;
+    color: #fc1406;
     font-size: 14px;
     font-weight: 500
 }
@@ -2152,7 +2152,7 @@ hr {
 }
 
 .categories-area .single-cat .cat-cap h5 {
-    color: #003072;
+    color: #fc1406;
     -webkit-transition: all .2s ease-out 0s;
     -moz-transition: all .2s ease-out 0s;
     -ms-transition: all .2s ease-out 0s;
@@ -2210,7 +2210,7 @@ hr {
 }
 
 .categories-area .single-cat:hover .cat-cap h5 a {
-    color: #316EC2
+    color: #fe6d4c
 }
 
 .categories-area .single-cat:hover .cat-cap .browse-btn2 {
@@ -2220,7 +2220,7 @@ hr {
 
 .footer-wrapper {
     padding: 0 88px;
-    background-color: #003072;
+    background-color: #fc1406;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1400px) {
@@ -2331,7 +2331,7 @@ hr {
 }
 
 .footer-wrapper .footer-area .footer-form form .form-icon button i {
-    color: #316EC2
+    color: #fe6d4c
 }
 
 .footer-wrapper .footer-area .info.error {
@@ -2352,7 +2352,7 @@ hr {
 }
 
 .footer-bottom-area .footer-copy-right p i {
-    color: #316EC2
+    color: #fe6d4c
 }
 
 .footer-bottom-area .footer-copy-right p a {
@@ -2417,7 +2417,7 @@ ul.footer-social li a i {
 }
 
 ul.footer-social li .fb {
-    background: #3B5998
+    background: #fc1406
 }
 
 ul.footer-social li .yt {
@@ -2425,11 +2425,11 @@ ul.footer-social li .yt {
 }
 
 ul.footer-social li .lnk {
-    background: #0077B5
+    background: #fc1406
 }
 
 ul.footer-social li .ins {
-    background: #cb3461
+    background: #fc1406
 }
 
 .home-blog {
@@ -2512,7 +2512,7 @@ ul.footer-social li .ins {
 }
 
 .home-blog .single-blogs .blogs-cap h5 a {
-    color: #003072;
+    color: #fc1406;
     font-size: 24px;
     line-height: 1.4;
     margin-bottom: 12px;
@@ -2527,7 +2527,7 @@ ul.footer-social li .ins {
 }
 
 .home-blog .single-blogs .blogs-cap h5 a:hover {
-    color: #003072
+    color: #fc1406
 }
 
 .home-blog .single-blogs .blogs-cap p {
@@ -2545,7 +2545,7 @@ ul.footer-social li .ins {
 
 .blog_area a:hover,
 .blog_area a :hover {
-    background: -webkit-linear-gradient(131deg, #316EC2 0%, #316EC2 99%);
+    background: -webkit-linear-gradient(131deg, #fe6d4c 0%, #fe6d4c 99%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-decoration: none;
@@ -2576,7 +2576,7 @@ ul.footer-social li .ins {
 }
 
 .blog_details a:hover {
-    color: #316EC2
+    color: #fe6d4c
 }
 
 .blog_details h2 {
@@ -2634,7 +2634,7 @@ ul.footer-social li .ins {
     left: 10px;
     display: block;
     color: #fff;
-    background-color: #316EC2;
+    background-color: #fe6d4c;
     padding: 8px 15px;
     border-radius: 5px
 }
@@ -2716,7 +2716,7 @@ ul.footer-social li .ins {
 }
 
 .blog_right_sidebar .search_widget .input-group button {
-    background: #316EC2;
+    background: #fe6d4c;
     border-left: 0;
     border: 1px solid #f0e9ff;
     padding: 12px 15px;
@@ -2834,7 +2834,7 @@ ul.footer-social li .ins {
 }
 
 .blog_right_sidebar .tag_cloud_widget ul li a:hover {
-    background: #316EC2;
+    background: #fe6d4c;
     color: #fff !important;
     -webkit-text-fill-color: #fff;
     text-decoration: none;
@@ -3019,7 +3019,7 @@ ul.footer-social li .ins {
 }
 
 .single-post-area .blog-author a:hover {
-    color: #316EC2
+    color: #fe6d4c
 }
 
 .single-post-area .blog-author p {
@@ -4530,17 +4530,20 @@ del {
 }
 
 
-
 /*--------------------------------------------------------------
 # routes
 --------------------------------------------------------------*/
+
 .routes .route-wrap {
     padding-left: 50px;
-  }
-  .routes .routes-carousel, .routes .routes-slider {
+}
+
+.routes .routes-carousel,
+.routes .routes-slider {
     overflow: hidden;
-  }
-  .routes .route-item {
+}
+
+.routes .route-item {
     box-sizing: content-box;
     padding: 30px 30px 30px 60px;
     margin: 30px 15px;
@@ -4550,9 +4553,9 @@ del {
     background: #fff;
     box-shadow: 0px 0px 20px 0px rgb(11 35 65 / 20%);
     border-radius: 5px;
+}
 
-  }
-  .routes .route-item {
+.routes .route-item {
     cursor: pointer;
     transition: transform 0.3s;
 }
@@ -4562,61 +4565,67 @@ del {
     cursor: pointer;
 }
 
-
-  .routes .route-item .route-img {
+.routes .route-item .route-img {
     width: 90px;
     border-radius: 10px;
     border: 6px solid #fff;
     position: absolute;
     left: -45px;
-  }
-  .routes .route-item h3 {
+}
+
+.routes .route-item h3 {
     font-size: 18px;
     font-weight: bold;
     margin: 10px 0 5px 0;
     color: #111;
-  }
-  .routes .route-item h4 {
+}
+
+.routes .route-item h4 {
     font-size: 14px;
     color: #999;
     margin: 0;
-  }
-  .routes .route-item .quote-icon-left, .routes .route-item .quote-icon-right {
-    color:#003072;
+}
+
+.routes .route-item .quote-icon-left,
+.routes .route-item .quote-icon-right {
+    color: #fc1406;
     font-size: 26px;
-  }
-  .routes .route-item .quote-icon-left {
+}
+
+.routes .route-item .quote-icon-left {
     display: inline-block;
     left: -5px;
     position: relative;
-  }
-  .routes .route-item .quote-icon-right {
+}
+
+.routes .route-item .quote-icon-right {
     display: inline-block;
     right: -5px;
     position: relative;
     top: 10px;
-  }
-  .routes .route-item p {
+}
+
+.routes .route-item p {
     font-style: italic;
     margin: 15px auto 15px auto;
-  }
-  .routes .swiper-js-pagination {
+}
+
+.routes .swiper-js-pagination {
     margin-top: 20px;
     position: relative;
-  }
-  .routes .swiper-js-pagination .swiper-js-pagination-bullet {
+}
+
+.routes .swiper-js-pagination .swiper-js-pagination-bullet {
     width: 12px;
     height: 12px;
     background-color: #fff;
     opacity: 1;
     border: 1px solid #ed502e;
-  }
-  .routes .swiper-js-pagination .swiper-js-pagination-bullet-active {
+}
+
+.routes .swiper-js-pagination .swiper-js-pagination-bullet-active {
     background-color: #ed502e;
-  }
-
-
-
+}
 
 
 /*--------------------------------------------------------------
@@ -4705,7 +4714,7 @@ del {
 .filiateds .filiated-item p {
     font-style: italic;
     margin: 0 auto 15px auto;
-    color: #316EC2;
+    color: #fe6d4c;
     border: white;
 }
 

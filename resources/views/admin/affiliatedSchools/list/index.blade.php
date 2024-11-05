@@ -1,11 +1,11 @@
 @extends('layouts.merge.dashboard')
-@section('titulo', 'Lista de Escolas Filiadas')
+@section('titulo', 'Lista de Paróquia/Centro')
 
 @section('content')
     <div class="card mb-2">
         <div class="card-body">
             <h2 class="h5 page-title">
-                Lista de Escolas Filiadas
+                Lista de Paróquia/Centro
             </h2>
         </div>
     </div>
@@ -16,11 +16,11 @@
                     <thead class="bg-primary">
                         <tr class="text-center">
                             <th>ID</th>
-                            <th>NOME DA ESCOLA</th>
+                            <th>PARÓQUIA/CENTRO</th>
                             <th>TELEFONE</th>
                             <th>EMAIL</th>
                             <th>ENDEREÇO</th>
-                            <th>SITE</th>
+                            <th>PASTOR</th>
                             <th>ACÇÕES</th>
                         </tr>
                     </thead>

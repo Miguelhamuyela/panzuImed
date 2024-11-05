@@ -101,6 +101,18 @@ Route::get('admin/galeria-de-alumni/delete/{id}', ['as' => 'admin.alumniGallery.
         Route::get('admin/slideshow/delete/{id}', ['as' => 'admin.slideshow.delete', 'uses' => 'Admin\SlideShowController@destroy']);
         /* end slideshow */
 
+        /* missions */
+        Route::get('admin/missions/index', ['as' => 'admin.missions.index', 'uses' => 'Admin\MissionsController@list']);
+        Route::get('admin/missions/show/{id}', ['as' => 'admin.missions.show', 'uses' => 'Admin\MissionsController@show']);
+
+        Route::get('admin/missions/create', ['as' => 'admin.missions.create', 'uses' => 'Admin\MissionsController@create']);
+        Route::post('admin/missions/store', ['as' => 'admin.missions.store', 'uses' => 'Admin\MissionsController@store']);
+
+        Route::get('admin/missions/edit/{id}', ['as' => 'admin.missions.edit', 'uses' => 'Admin\MissionsController@edit']);
+        Route::put('admin/missions/update/{id}', ['as' => 'admin.missions.update', 'uses' => 'Admin\MissionsController@update']);
+
+        Route::get('admin/missions/delete/{id}', ['as' => 'admin.missions.delete', 'uses' => 'Admin\MissionsController@destroy']);
+        /* end missions */
 
 
         /* news */
@@ -115,6 +127,16 @@ Route::get('admin/galeria-de-alumni/delete/{id}', ['as' => 'admin.alumniGallery.
 
         Route::get('admin/news/delete/{id}', ['as' => 'admin.news.delete', 'uses' => 'Admin\NewsController@destroy']);
         /* end news */
+
+        /* vision */
+        Route::get('admin/visions/index', ['as' => 'admin.visions.index', 'uses' => 'Admin\VisionsController@list']);
+        Route::get('admin/visions/show/{id}', ['as' => 'admin.visions.show', 'uses' => 'Admin\VisionsController@show']);
+        Route::get('admin/visions/create', ['as' => 'admin.visions.create', 'uses' => 'Admin\VisionsController@create']);
+        Route::post('admin/visions/store', ['as' => 'admin.visions.store', 'uses' => 'Admin\VisionsController@store']);
+        Route::get('admin/visions/edit/{id}', ['as' => 'admin.visions.edit', 'uses' => 'Admin\VisionsController@edit']);
+        Route::put('admin/visions/update/{id}', ['as' => 'admin.visions.update', 'uses' => 'Admin\VisionsController@update']);
+        Route::get('admin/visions/delete/{id}', ['as' => 'admin.visions.delete', 'uses' => 'Admin\VisionsController@destroy']);
+        /* end vision */
 
         /**PerfilDirector */
         Route::get('admin/perfil-do-director/show', ['as' => 'admin.perfilDirector.show', 'uses' => 'Admin\PerfilDirectorController@show']);

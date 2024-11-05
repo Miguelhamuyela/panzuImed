@@ -1,11 +1,11 @@
 @extends('layouts.merge.dashboard')
-@section('titulo', 'Detalhes sobre Órgãos Directivos')
+@section('titulo', 'Detalhes sobre Órgãos da Imed')
 
 @section('content')
     <div class="card mb-2">
         <div class="card-body">
             <h2 class="h5 page-title">
-                <a href="{{ route('admin.governingBodie.index') }}"><u>Listar Órgãos Directivos</u></a> > {{ $governingBodies->name }}
+                <a href="{{ route('admin.governingBodie.index') }}"><u>Listar Órgãos da Imed</u></a> > {{ $governingBodies->name }}
             </h2>
         </div>
     </div>

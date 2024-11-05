@@ -1,6 +1,6 @@
 <header>
     <div class="header-area">
-        <div class="main-header" style="background-color: #003072;">
+        <div class="main-header" style="background-color: #fc1406;">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-xl-12">
@@ -9,25 +9,23 @@
 
 
                                 <div class="header-info-right">
-                                    <p class="text-light p-0">Instituto Politécnico Industrial do Kilamba Kiaxi nº 8056
-                                        "Nova Vida"</p>
+                                    <p class="text-light p-0"><marquee> Portal da Igreja Missionária do Evangelho do Desenvolvimento "Sede Bairro do Camama"</marquee>
+                                     </p>
                                 </div>
 
                                 <div class="header-info-right ">
                                     <ul class="header-social">
                                         <li> @isset($configuration->facebook)
-                                            <a href="{{ $configuration->facebook }}" target="_blank"><i
-                                                class="fab fa-facebook text-light"></i></a>
-                                        @endisset
-                                            </li>
+                                                <a href="{{ $configuration->facebook }}" target="_blank"><i
+                                                        class="fab fa-facebook text-light"></i></a>
+                                            @endisset
+                                        </li>
                                         <li>
                                             @isset($configuration->instagram)
-
-                                            <a href="{{ $configuration->instagram }}" target="_blank"><i
-                                                class="fab fa-instagram text-light"></i></a>
-
+                                                <a href="{{ $configuration->instagram }}" target="_blank"><i
+                                                        class="fab fa-instagram text-light"></i></a>
                                             @endisset
-                                            </li>
+                                        </li>
                                         <li class="text-light">|</li>
                                         @include('extra._translateButton.index')
 
@@ -41,9 +39,9 @@
 
         </div>
 
-        <div style="z-index:7;"  class="header-bottom  header-sticky">
+        <div style="z-index:7;" class="header-bottom  header-sticky">
             <div class="container-fluid">
-                <div  class="d-flex align-items-center justify-content-between flex-wrap position-relative">
+                <div class="d-flex align-items-center justify-content-between flex-wrap position-relative">
 
                     <div class="left-side d-flex align-items-center">
 
@@ -61,6 +59,9 @@
                             <nav>
                                 <ul id="navigation">
                                     <li><a href="{{ route('site.home') }}">Início</a></li>
+
+
+                                     {{--
                                     <li><a href="{{ route('site.home') }}">Oferta Formativa</a>
                                         @if (isset($courseMenus))
                                             <ul class="submenu">
@@ -85,31 +86,24 @@
                                             </ul>
                                         @endif
                                     </li>
-
-                                    <li><a href="{{ route('site.about') }}">Sobre</a>
+                                      --}}
+                                    <li><a href="{{ route('site.about') }}">Imed</a>
 
                                         <ul class="submenu">
                                             <li><a href="{{ route('site.about') }}">Quem Somos</a></li>
-                                            <li><a href="#">Institucional</a>
+                                            <li><a href="#">Organigrama</a>
                                                 <ul class="submenu" style="margin:-15px 160px;">
-                                                    <li><a href="{{ route('site.perfilDirector') }}">Perfil do
-                                                            Director</a></li>
-                                                    <li><a href="{{ route('site.governingBodie') }}">Orgãos
-                                                            Directivos</a></li>
-                                                    <li><a
-                                                            href="{{ route('site.formerDirector') }}">Ex-Directores</a>
+                                                    <li><a href="{{ route('site.perfilDirector') }}">
+                                                            Pastor Geral</a></li>
+                                                    <li><a href="{{ route('site.governingBodie') }}">Outros
+                                                            Orgãos</a></li>
+                                                    <li><a href="{{ route('site.formerDirector') }}">Ex-Dirigentes</a>
                                                     </li>
                                                 </ul>
                                             </li>
-                                            <li><a href="{{ route('site.normative') }}">Normativos </a> </li>
-                                            <li><a href="#">Alumni</a>
-                                                <ul class="submenu" style="margin:-15px 150px;">
-                                                    <li><a href="{{ route('site.route') }}">Percurso</a></li>
-                                                    <li><a href="{{ route('site.galleryAlumi') }}">Galeria de
-                                                            Alumni</a></li>
-                                                </ul>
+                                            <li><a href="{{ route('site.normative') }}">Documentos </a> </li>
+                                            <li><a href="{{ route('site.route') }}">Percurso</a> </li>
 
-                                            <li><a href="{{ route('site.affiliatedSchools') }}">Escolas Filiadas</a>
                                             </li>
 
 
@@ -117,16 +111,22 @@
                                         </ul>
 
                                     </li>
-
+                                    <li><a href="{{ route('site.visions') }}">Visão</a></li>
+                                    <li><a href="{{ route('site.missions') }}">Missão</a></li>
+                                    <li><a href="{{ route('site.affiliatedSchools') }}">Paróquia/Centro</a></li>
                                     <li><a href="{{ route('site.news') }}">Notícias</a></li>
                                     <li><a href="{{ route('site.gallery') }}">Galerias</a></li>
                                     <li><a href="{{ route('site.contact') }}">Contactos</a></li>
+
+
+   {{--
+
                                     <a href="{{ route('admin.home') }}">
                                         <li class="boxed-btn">
                                             Àrea Restrita
                                         </li>
                                     </a>
-
+ --}}
                                 </ul>
 
                             </nav>

@@ -12,8 +12,8 @@
 
         <li class="nav-item dropdown">
 
-            <a class="nav-link dropdown-toggle text-muted pr-0" href="#" id="navbarDropdownMenuLink" role="button"
-                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle text-muted pr-0" href="#" id="navbarDropdownMenuLink"
+                role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <span class="fe fe-user fe-16"></span>
 
             </a>
@@ -34,7 +34,8 @@
 
     @if (null !== Auth::user())
         <aside class="sidebar-left border-right bg-white shadow" id="leftSidebar" data-simplebar>
-            <a href="#" class="btn collapseSidebar toggle-btn d-lg-none text-muted ml-2 mt-3" data-toggle="toggle">
+            <a href="#" class="btn collapseSidebar toggle-btn d-lg-none text-muted ml-2 mt-3"
+                data-toggle="toggle">
                 <i class="fe fe-x"><span class="sr-only"></span></i>
             </a>
             <nav class="vertnav navbar navbar-light">
@@ -86,20 +87,20 @@
                                 <a href="#institutional" data-toggle="collapse" aria-expanded="false"
                                     class="dropdown-toggle nav-link">
                                     <i class="fe fe-layers"></i>
-                                    <span class="ml-3 item-text">Institucional</span>
+                                    <span class="ml-3 item-text">Instrutura da imed</span>
                                 </a>
                                 <ul class="collapse list-unstyled pl-4 w-100" id="institutional">
 
                                     <li class="nav-item">
                                         <a class="nav-link pl-3" href="{{ route('admin.perfilDirector.show') }}">
-                                            <span class="ml-1 item-text">Perfil do Director</span>
+                                            <span class="ml-1 item-text">Pastor Geral</span>
                                         </a>
                                     </li>
 
                                     <li class="nav-item dropdown">
                                         <a href="#governingBodie" data-toggle="collapse" aria-expanded="false"
                                             class="dropdown-toggle pl-3 nav-link">
-                                            <span class="ml-1 item-text">Órgãos Directivos</span>
+                                            <span class="ml-1 item-text">Órgãos da Imed</span>
                                         </a>
 
                                         <ul class="collapse list-unstyled pl-4 w-100" id="governingBodie">
@@ -107,14 +108,14 @@
                                             <li class="nav-item">
                                                 <a class="nav-link pl-3"
                                                     href="{{ route('admin.governingBodie.create') }}">
-                                                    <span class="ml-1 item-text">Cadastrar Órgão Directivo</span>
+                                                    <span class="ml-1 item-text">Cadastrar Órgão da Imed</span>
                                                 </a>
                                             </li>
 
                                             <li class="nav-item">
                                                 <a class="nav-link pl-3"
                                                     href="{{ route('admin.governingBodie.index') }}">
-                                                    <span class="ml-1 item-text">Listar Órgão Directivo</span>
+                                                    <span class="ml-1 item-text">Listar Órgão da Imed</span>
                                                 </a>
                                             </li>
 
@@ -125,7 +126,7 @@
                                     <li class="nav-item dropdown">
                                         <a href="#formerDirector" data-toggle="collapse" aria-expanded="false"
                                             class="dropdown-toggle pl-3 nav-link">
-                                            <span class="ml-1 item-text">Ex-Directores</span>
+                                            <span class="ml-1 item-text">Ex-Órgão</span>
                                         </a>
 
                                         <ul class="collapse list-unstyled pl-4 w-100" id="formerDirector">
@@ -133,14 +134,14 @@
                                             <li class="nav-item">
                                                 <a class="nav-link pl-3"
                                                     href="{{ route('admin.formerDirector.create') }}">
-                                                    <span class="ml-1 item-text">Cadastrar Ex-Directores</span>
+                                                    <span class="ml-1 item-text">Cadastrar Ex-Órgão</span>
                                                 </a>
                                             </li>
 
                                             <li class="nav-item">
                                                 <a class="nav-link pl-3"
                                                     href="{{ route('admin.formerDirector.index') }}">
-                                                    <span class="ml-1 item-text">Listar Ex-Directores</span>
+                                                    <span class="ml-1 item-text">Listar Ex-Órgão</span>
                                                 </a>
                                             </li>
 
@@ -155,22 +156,24 @@
                                 <a href="#normative" data-toggle="collapse" aria-expanded="false"
                                     class="dropdown-toggle nav-link">
                                     <i class="fe fe-layers"></i>
-                                    <span class="ml-3 item-text"> Normativos</span>
+                                    <span class="ml-3 item-text"> Documento</span>
                                 </a>
                                 <ul class="collapse list-unstyled pl-4 w-100" id="normative">
 
                                     <li class="nav-item">
                                         <a class="nav-link pl-3" href="{{ route('admin.normative.create') }}">
-                                            <span class="ml-1 item-text">Cadastrar Normativos </span>
+                                            <span class="ml-1 item-text">Cadastrar Novo Documento </span>
                                         </a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link pl-3" href="{{ route('admin.normative.index') }}">
-                                            <span class="ml-1 item-text">Listar Normativos </span>
+                                            <span class="ml-1 item-text">Listar Documento </span>
                                         </a>
                                     </li>
                                 </ul>
                             </li>
+
+                            {{--
 
                             <li class="nav-item dropdown">
                                 <a href="#registration" data-toggle="collapse" aria-expanded="false"
@@ -193,26 +196,25 @@
                                 </ul>
                             </li>
 
-
-
-
+                           news --}}
 
                             <li class="nav-item dropdown">
                                 <a href="#affiliateSchools" data-toggle="collapse" aria-expanded="false"
                                     class="dropdown-toggle nav-link">
                                     <i class="fe fe-layers"></i>
-                                    <span class="ml-3 item-text"> Escolas Filiadas </span>
+                                    <span class="ml-3 item-text"> Paróquia/Centro </span>
                                 </a>
                                 <ul class="collapse list-unstyled pl-4 w-100" id="affiliateSchools">
 
                                     <li class="nav-item">
-                                        <a class="nav-link pl-3" href="{{ route('admin.affiliatedSchools.create') }}">
-                                            <span class="ml-1 item-text">Cadastrar Escolas Filiadas </span>
+                                        <a class="nav-link pl-3"
+                                            href="{{ route('admin.affiliatedSchools.create') }}">
+                                            <span class="ml-1 item-text">Nova Paróquia/Centro </span>
                                         </a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link pl-3" href="{{ route('admin.affiliatedSchools.index') }}">
-                                            <span class="ml-1 item-text">Listar Escolas Filiadas </span>
+                                            <span class="ml-1 item-text">Listar Paróquia/Centro </span>
                                         </a>
                                     </li>
                                 </ul>
@@ -410,6 +412,59 @@
                                 </li>
                             </ul>
                         </li>
+
+
+
+                        {{-- Menu de Visão --}}
+                        <p class="text-muted nav-heading mt-2 mb-1">
+                            <span> Visão </span>
+                        </p>
+                        <li class="nav-item dropdown">
+                            <a href="#visions" data-toggle="collapse" aria-expanded="false"
+                                class="dropdown-toggle nav-link">
+                                <i class="fe fe-rss fe-16"></i>
+                                <span class="ml-3 item-text"> Visão </span>
+                            </a>
+                            <ul class="collapse list-unstyled pl-4 w-100" id="visions">
+
+                                <li class="nav-item">
+                                    <a class="nav-link pl-3" href="{{ route('admin.visions.create') }}">
+                                        <span class="ml-1 item-text">Cadastrar a Visão</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link pl-3" href="{{ route('admin.visions.index') }}">
+                                        <span class="ml-1 item-text">Listar a Visão</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+
+                        <li class="nav-item dropdown">
+                            <a href="#missions" data-toggle="collapse" aria-expanded="false"
+                                class="dropdown-toggle nav-link">
+                                <i class="fe fe-rss fe-16"></i>
+                                <span class="ml-3 item-text"> Missão </span>
+                            </a>
+                            <ul class="collapse list-unstyled pl-4 w-100" id="missions">
+
+                                <li class="nav-item">
+                                    <a class="nav-link pl-3" href="{{ route('admin.missions.create') }}">
+                                        <span class="ml-1 item-text">Cadastrar a Missão</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link pl-3" href="{{ route('admin.visions.index') }}">
+                                        <span class="ml-1 item-text">Listar a Missão</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+
+
+
                         {{-- Menu de Parceiros --}}
                         <p class="text-muted nav-heading mt-2 mb-1">
                             <span> Parceiros </span>

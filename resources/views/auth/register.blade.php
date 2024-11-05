@@ -1,10 +1,10 @@
 @extends('layouts.merge.dashboard')
-@section('titulo', 'Criar Conto no Portal IPIKK')
+@section('titulo', 'Criar Conto no Portal IMED')
 @section('content')
 
     <div class="card shadow">
         <div class="card-body">
-            <h2 class="my-5 text-center">Criar Conta no Portal IPIKK</h2>
+            <h2 class="my-5 text-center">Criar Conta no Portal IMED</h2>
 
             <!-- Validation Errors -->
             <x-auth-validation-errors class="mb-4 alert alert-danger" :errors="$errors" />

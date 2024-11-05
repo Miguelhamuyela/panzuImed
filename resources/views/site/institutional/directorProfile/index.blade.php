@@ -1,5 +1,5 @@
 @extends('layouts.merge.site')
-@section('titulo', 'Perfil do Director')
+@section('titulo', 'Pastor Geral')
 @section('content')
     <main>
 
@@ -9,7 +9,7 @@
                     <div class="row">
                         <div class="col-xxl-12">
                             <div class="hero-caption hero-caption2">
-                                <h2 class="text-white">Perfil do Director Geral</h2>
+                                <h2 class="text-white">Pastor Geral</h2>
                             </div>
                         </div>
                     </div>
@@ -24,7 +24,7 @@
 
 
                     <div class="row">
-                        <!-- Institutional-->
+                        <!-- imed-->
                         <div class="col-md-6 col-sm-6 col-xs-12">
                             <div class="card border-0 bg-transparent">
                                 <div class="card-img-top rounded"

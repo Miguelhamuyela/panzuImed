@@ -1,11 +1,11 @@
 @extends('layouts.merge.dashboard')
-@section('titulo', 'Editar Sobre o IPIKK')
+@section('titulo', 'Editar Sobre o IMED')
 
 @section('content')
     <div class="card mb-2">
         <div class="card-body">
             <h2 class="h5 page-title">
-                <a href="{{ route('admin.about.show') }}"><u>Ver Sobre o IPIKK</u></a> > Editar Sobre o IPIKK
+                <a href="{{ route('admin.about.show') }}"><u>Ver Sobre o imed</u></a> > Editar Sobre o IMED
             </h2>
         </div>
     </div>

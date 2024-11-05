@@ -193,8 +193,8 @@
                                                                         align="center">
 
                                                                         <img align="center" border="0"
-                                                                            src="https://ipikk.ao/site/img/hero/logo.png"
-                                                                            alt="IPIKK" title="Image"  width="100px" height="120px" />
+                                                                            src="https://imed.ao/site/img/hero/logo.png"
+                                                                            alt="IMED" title="Image"  width="100px" height="120px" />
 
                                                                     </td>
                                                                 </tr>
@@ -901,7 +901,7 @@
                                                             <div class="v-text-align"
                                                                 style="color: #ecf7ff; line-height: 140%; text-align: center; word-wrap: break-word;">
                                                                 <p style="font-size: 14px; line-height: 140%;">
-                                                                    IPIKK © {{ DATE('Y') }} - Todos Direitos
+                                                                    IMED © {{ DATE('Y') }} - Todos Direitos
                                                                     Reservados.
                                                                     by
                                                                     <a href="https://infosi.gov.ao/"

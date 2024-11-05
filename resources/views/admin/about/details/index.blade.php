@@ -1,5 +1,5 @@
 @extends('layouts.merge.dashboard')
-@section('titulo', 'Detalhes Sobre o IPIKK')
+@section('titulo', 'Detalhes Sobre o IMED')
 
 @section('content')
     <div class="card mb-2">
@@ -9,14 +9,14 @@
                 <div class="row align-items-center">
                     <div class="col">
                         <h2 class="h5 page-title">
-                            Detalhes Sobre o IPIKK
+                            Detalhes Sobre o imed
                         </h2>
                     </div>
                     <div class="col-auto">
                         @isset($about)
                             <a type="button" class="btn btn-sm btn-primary text-white"
                                 href="{{ url("admin/about/edit/{$about->id}") }}">
-                                <span class="fe fe-edit fe-16 mr-2"></span>Editar Sobre o IPIKK
+                                <span class="fe fe-edit fe-16 mr-2"></span>Editar Sobre o IMED
                             </a>
                         @endisset
                     </div>
@@ -33,7 +33,7 @@
                 <div class="container-fluid">
                     <div class="row m-4">
 
-                    
+
 
                         <div class="col-md-12 mb-2">
 

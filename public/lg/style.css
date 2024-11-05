@@ -3266,7 +3266,7 @@ textarea {
     font-weight: 400;
 }
 .login-toggle-btn>a {
-    color: #003072;
+    color: #fc1406;
     float: right;
     -webkit-transition: all 0.2s ease 0s;
     transition: all 0.2s ease 0s;
@@ -3276,9 +3276,9 @@ textarea {
 }
 .button-box .default-btn {
     background: transparent none repeat scroll 0 0;
-    border: 1px solid #003072;
+    border: 1px solid #fc1406;
     border-radius: 30px;
-    color: #003072;
+    color: #fc1406;
     font-size: 14px;
     margin-top: 40px;
     padding: 8px 36px;
@@ -3291,7 +3291,7 @@ textarea {
     display: none
 }
 .button-box .default-btn:hover {
-    background-color: #003072;
-    border: 1px solid #003072;
+    background-color: #fc1406;
+    border: 1px solid #fc1406;
     color: #fff;
 }

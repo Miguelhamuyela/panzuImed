@@ -38,7 +38,7 @@
                                 A Política de Privacidade e Proteção de Dados Pessoais, complementares aos Termos e
                                 Condições de
                                 Utilização,
-                                destina-se a regular o processo de tratamento de dados pessoais a realizar pelo IPIKK por
+                                destina-se a regular o processo de tratamento de dados pessoais a realizar pelo IMED por
                                 conta da
                                 utilização
                                 deste website. <br>
@@ -73,7 +73,7 @@
 
 
                                 <br><br>
-                                O IPIKK não efetuará o tratamento de dados pessoais que revelem a origem racial ou étnica,
+                                O IMED não efetuará o tratamento de dados pessoais que revelem a origem racial ou étnica,
                                 as
                                 opiniões
                                 políticas, as convicções religiosas ou filosóficas, ou a filiação sindical, bem como o
@@ -91,7 +91,7 @@
                                         sobre um
                                         programa através de formulário e/ou chatbot ou troque correspondência eletrónica com
                                         o
-                                        IPIKK.
+                                        IMED.
                                     </li>
                                     <li>A recolha de informação pessoal está limitada aos visitantes que se registam
                                         voluntariamente.
@@ -102,14 +102,14 @@
                                 </p>
                                 <p class="mt-3">
                                     <b> Consentimento para a receção de informações</b> <br><br>
-                                    O IPIKK dará o seu consentimento prévio relativamente à recepção de comunicações
+                                    O IMED dará o seu consentimento prévio relativamente à recepção de comunicações
                                     comerciais
                                     para fins
                                     de
                                     marketing, sendo-lhe conferida a
-                                    faculdade de oposição, a todo o tempo, mediante comunicação escrita dirigida ao IPIKK.
+                                    faculdade de oposição, a todo o tempo, mediante comunicação escrita dirigida ao IMED.
                                     <br>
-                                    As referidas informações comerciais, poderão ser enviadas pelo IPIKK, através de correio
+                                    As referidas informações comerciais, poderão ser enviadas pelo IMED, através de correio
                                     eletrónico,
                                     telefone, SMS
                                     ou qualquer outro meio de comunicação eletrónica, websites de redes sociais, Web 2.0,
@@ -121,7 +121,7 @@
                                     <b> Transmissão</b><br><br>
                                     Para além das obrigações referidas na Lei aplicável à proteção de dados ou à salvaguarda
                                     e
-                                    protecção dos seus próprios interesses, o IPIKK não partilhará quaisquer dados pessoais
+                                    protecção dos seus próprios interesses, o IMED não partilhará quaisquer dados pessoais
                                     com
                                     entidades
                                     terceiras.
@@ -138,7 +138,7 @@
                                 </p>
                                 <p class="mt-3">
                                     <b>Cookies</b><br><br>
-                                    O IPIKK poderá utilizar cookies no seu website com o objectivo de melhorar a qualidade
+                                    O IMED poderá utilizar cookies no seu website com o objectivo de melhorar a qualidade
                                     do
                                     serviço, as funcionalidades disponibilizadas e a experiência do utilizador, não sendo
                                     utilizados

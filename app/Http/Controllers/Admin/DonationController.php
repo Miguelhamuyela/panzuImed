@@ -31,7 +31,7 @@ class DonationController extends Controller
         ]);
 
         if ($middle = $request->file('image')) {
-            $file = $middle->storeAs('donation', 'IPIKK-donation-' . uniqid(rand(1, 5)) . "." . $middle->extension());
+            $file = $middle->storeAs('donation', 'IMED-donation-' . uniqid(rand(1, 5)) . "." . $middle->extension());
         } else {
             $file =  Donation::find($id)->image;
         }

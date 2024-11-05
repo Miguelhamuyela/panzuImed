@@ -15,11 +15,13 @@
                                     {{ $item->title }}
                                 </h2>
                             @endif
+                            {{--
                             @if ($item->link)
                                 <a href="{{ $item->link }}" class="btn_01 btn_wnat">
                                     {{ $item->button }}
                                 </a>
                             @endif
+                            --}}
                         </div>
 
 
@@ -30,7 +32,7 @@
         <!-- ====== Slideshow End ====== -->
 
 
-        {{-- courses --}}
+        {{--
         <section class="brand-area ">
             <div class="container">
                 <div class="row wrapper-brand justify-content-center py-5">
@@ -64,6 +66,10 @@
             </div>
 
         </section>
+
+--}}
+
+
 
         {{-- news --}}
         <section class="brand-area" style="background-color: #F3F8FF;">
@@ -101,7 +107,7 @@
             </div>
         </section>
 
-        {{-- study in IPIKK --}}
+        {{-- study in IMED --}}
         <section class="about-area py-5 ">
             <div class="container">
                 <div class="row align-items-center wrapper-border">
@@ -109,10 +115,9 @@
                         <div class="about-caption">
 
                             <div class="mb-25 py-4">
-                                <h2 >Faça sua matrícula no IPIKK</h2>
-                                <p class="pt-20 pb-20 text-justify">Junte-se a nós, usufrua o que temos a oferecer para a
-                                    sua capacitação e desenvolvimento profissional</p>
-                                <a href="{{route('site.registration.index')}}" class="btn_01 btn_wnat">Saiba Mais</a>
+                                <h2>Faça Parte do Nosso Movimento "IMED"</h2>
+                                <p class="pt-20 pb-20 text-justify">O pentecostalismo é um movimento do cristão protestante que dá ênfase especial numa experiência direta e pessoal de Deus através do Batismo no Espírito Santo.<br>O termo pentecostal é derivado de Pentecostes, um termo grego que descreve a festa judaica das semanas. Para os cristãos, este evento comemora a descida do Espírito Santo sobre os seguidores de Jesus Cristo, conforme descrito no Atos 2</p>
+                                <a href="{{ route('site.about') }}" class="btn_01 btn_wnat">Saiba Mais</a>
                             </div>
                         </div>
                     </div>
@@ -134,7 +139,7 @@
             <div class="section-tittle text-center mb-50 ">
 
                 <span></span>
-                <h3>Escolas Filiadas</h3>
+                <h3>Paróquia/Centro</h3>
             </div>
             <div class="container">
 
@@ -192,33 +197,6 @@
 
         </section><!-- End filiateds Section -->
 
-        <section class="brand-area mb-5">
-            <div class="container">
-                <div class="row wrapper-brand justify-content-center ">
-                    <div class="col-xl-5 col-lg-9 col-md-8">
-
-                        <div class="section-tittle text-center mt-5 mb-50">
-
-                            <h3>Parceiros</h3>
-                        </div>
-                    </div>
-                    <div class="col-xl-12">
-
-                        <div class="brand-active  pt-40 pb-40 ">
-                            @foreach ($partners as $item)
-                                <div class="single-brand">
-                                    <a href="{{ $item->link }}" target="_blank">
-                                        <img src="/storage/{{ $item->image }}" alt="{{ $item->name }}"
-                                            style="width: 190px;height:80px;" class="img-fluid">
-                                    </a>
-                                </div>
-                            @endforeach
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
 
 
 

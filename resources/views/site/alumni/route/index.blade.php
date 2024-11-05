@@ -76,7 +76,7 @@
         <div class="modal-content">
             <div class="modal-header">
 
-                <h5 style="color:#003072;" class="modal-title" id="staticBackdropLabel">Percurso</h5>
+                <h5 style="color:#fc1406;" class="modal-title" id="staticBackdropLabel">Percurso</h5>
 
 
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -97,13 +97,13 @@
 
                     </div>
 
-                    <h6 style="color:#003072;" class="">Nome: {{ $item->name }}</h6>
+                    <h6 style="color:#fc1406;" class="">Nome: {{ $item->name }}</h6>
 
-                    <h6 style="color:#003072;" class="">Curso: {{ $item->course }}</h6>
+                    <h6 style="color:#fc1406;" class="">Curso: {{ $item->course }}</h6>
 
-                    <h6 style="color:#003072;" class="">Ano: {{ $item->class }} </h6>
+                    <h6 style="color:#fc1406;" class="">Ano: {{ $item->class }} </h6>
 
-                    <h6 style="color:#003072;" class="">Descrição:  </h6>
+                    <h6 style="color:#fc1406;" class="">Descrição:  </h6>
                     <div class="text-align: justify;">
 
                         {!! html_entity_decode($item->description) !!}

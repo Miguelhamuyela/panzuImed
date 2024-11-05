@@ -30,7 +30,7 @@ class Contact extends Mailable
      */
     public function build()
     {
-        return $this->subject('Correspondência do Portal Oficial da IPIKK')
+        return $this->subject('Correspondência do Portal Oficial da IMED')
         ->view('mail.contact.index');
     }
 }

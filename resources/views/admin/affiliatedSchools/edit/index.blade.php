@@ -1,11 +1,11 @@
 @extends('layouts.merge.dashboard')
-@section('titulo', 'Editar Escola Filiada')
+@section('titulo', 'Editar Paróquia ou Centro')
 
 @section('content')
     <div class="card mb-2">
         <div class="card-body">
             <h2 class="h5 page-title">
-                <a href="{{ route('admin.affiliatedSchools.index') }}"><u>Listar Escola Filiada</u></a> >
+                <a href="{{ route('admin.affiliatedSchools.index') }}"><u>Listar Paróquia ou Centro</u></a> >
                 {{ $affiliated->name }}
             </h2>
         </div>

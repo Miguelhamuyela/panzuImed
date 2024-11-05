@@ -26,7 +26,7 @@ class CreateNewsTable extends Migration
         });
     }
 
-    /**
+    /**php
      * Reverse the migrations.
      *
      * @return void
